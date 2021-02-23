@@ -1,0 +1,58 @@
+0000.001 (0) Opened log file at time: Fri, 24 Apr 2020 15:48:35 +0000 on https://grupowz.com.br
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.3 PHP: 7.1.32 (cgi-fcgi, Windows NT WEB1200 10.0 build 14393 (Windows Server 2016) i586) MySQL: 5.5.43-log WPLANG: pt_BR Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M | 4M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 33069.1 MB
+0000.024 (0) Deleting old log file: log.07d1fda237eb.txt
+0000.027 (0) Deleting old log file: log.0e14173b897d.txt
+0000.028 (0) Deleting old log file: log.0eb5cdcc3c6f.txt
+0000.028 (0) Deleting old log file: log.0f70ab380c2a.txt
+0000.029 (0) Deleting old log file: log.11f1db8b73b9.txt
+0000.030 (0) Deleting old temporary file: log.13346123f94e-browser.txt
+0000.030 (0) Deleting old log file: log.13346123f94e.txt
+0000.031 (0) Deleting old log file: log.150b048e5c5d.txt
+0000.031 (0) Deleting old temporary file: log.16c3412bdd5f-browser.txt
+0000.032 (0) Deleting old log file: log.16c3412bdd5f.txt
+0000.032 (0) Deleting old log file: log.17351870c613.txt
+0000.033 (0) Deleting old log file: log.2838fb349aa2.txt
+0000.033 (0) Deleting old log file: log.28584f190a07.txt
+0000.034 (0) Deleting old log file: log.2c643ff23fb4.txt
+0000.034 (0) Deleting old log file: log.3187732b2bb3.txt
+0000.035 (0) Deleting old log file: log.34f31bf03dcd.txt
+0000.036 (0) Deleting old log file: log.362a1350fc4f.txt
+0000.036 (0) Deleting old temporary file: log.4f16c54e115e-browser.txt
+0000.037 (0) Deleting old log file: log.4f16c54e115e.txt
+0000.038 (0) Deleting old log file: log.55d0eea5a07d.txt
+0000.038 (0) Deleting old log file: log.606f8c3bc34a.txt
+0000.039 (0) Deleting old temporary file: log.61fabdf373a7-browser.txt
+0000.039 (0) Deleting old log file: log.61fabdf373a7.txt
+0000.040 (0) Deleting old log file: log.65fc4e552545.txt
+0000.040 (0) Deleting old log file: log.669ce659dd2c.txt
+0000.041 (0) Deleting old log file: log.701a69ef7237.txt
+0000.044 (0) Deleting old temporary file: log.724aa38fd31a-browser.txt
+0000.045 (0) Deleting old log file: log.724aa38fd31a.txt
+0000.045 (0) Deleting old log file: log.81e368814757.txt
+0000.046 (0) Deleting old log file: log.850058a344a8.txt
+0000.046 (0) Deleting old log file: log.9d3d0dc5c173.txt
+0000.047 (0) Deleting old log file: log.a28268ddbb8f.txt
+0000.049 (0) Deleting old log file: log.aa7e5708f406.txt
+0000.050 (0) Deleting old log file: log.b22f0f5c29f4.txt
+0000.050 (0) Deleting old log file: log.b31e25f16756.txt
+0000.051 (0) Deleting old log file: log.b32be65564de.txt
+0000.052 (0) Deleting old log file: log.c25fb984c1f3.txt
+0000.052 (0) Deleting old log file: log.c8127115439e.txt
+0000.053 (0) Deleting old log file: log.da6bc90b0ade.txt
+0000.054 (0) Deleting old log file: log.eea34dd9e5cb.txt
+0000.054 (0) Deleting old temporary file: log.f2e5a2bb244b-browser.txt
+0000.055 (0) Deleting old log file: log.f2e5a2bb244b.txt
+0000.056 (0) Deleting old log file: log.f4ceeea7ae5d.txt
+0000.057 (0) Deleting old log file: log.f9764c766f72.txt
+0000.057 (0) Deleting old log file: log.fc97cb94bbaf.txt
+0000.062 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.085 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.087 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2020-04-24 15:48:35
+0000.091 (0) Semaphore (fd, wp_options) reset to 1
+0000.093 (0) Set semaphore last lock (fd) time to 2020-04-24 15:48:35
+0000.093 (0) Semaphore lock (fd) complete
+0000.100 (0) Backup run: resumption=0, nonce=bd494db68390, file_nonce=bd494db68390 begun at=1587743315 (0s ago), job type=backup
+0000.102 (0) Scheduling a resumption (1) after 300 seconds (1587743615) in case this run gets aborted
+0000.105 (0) PHP event: code E_WARNING: include_once(D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus/backup.php): failed to open stream: No such file or directory (line 2220, D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus\class-updraftplus.php)
+0000.107 (0) PHP event: code E_WARNING: include_once(): Failed opening 'D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus/backup.php' for inclusion (include_path='.;C:\php\pear') (line 2220, D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus\class-updraftplus.php)

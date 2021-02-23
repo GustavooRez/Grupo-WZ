@@ -1,0 +1,74 @@
+0000.081 () Opened log file at time: Wed, 06 Nov 2019 19:21:15 +0000 on http://localhost/GrupoWZ
+0000.083 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.3.10 (apache2handler, Windows NT DESKTOP-48TEQBF 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: pt_BR Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.4M | 6M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.084 () Free space on disk containing Updraft's temporary directory: 723704.3 MB
+0000.053 () Opened log file at time: Wed, 06 Nov 2019 19:21:16 +0000 on http://localhost/GrupoWZ
+0000.054 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.3.10 (apache2handler, Windows NT DESKTOP-48TEQBF 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: pt_BR Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 33.8M | 6M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.054 () Free space on disk containing Updraft's temporary directory: 723704.2 MB
+0000.097 () Ensuring WP_Filesystem is setup for a restore
+0000.102 () WP_Filesystem is setup and ready for a restore
+0000.127 () Restore job started. Entities to restore: uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.153 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.167 () Entity: db
+0000.167 () restore_backup(backup_file=backup_2019-11-05-0053_Grupo_WZ_b0478c9039b9-db.gz, type=db, info=a:0:{}, last_one=)
+0000.168 () Desempacotando o backup... (backup_2019-11-05-0053_Grupo_WZ_b0478c9039b9-db.gz, 0.3 Mb)
+0000.186 () Database successfully unpacked
+0000.187 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.188 () Using direct MySQL access; value of use_mysqli is: 1
+0000.546 () Max packet size: 32 MB
+0000.546 () Entering maintenance mode
+0000.546 () Ativando modo de manutenção&#8230;
+0000.558 () Backup of: http://localhost/GrupoWZ
+0000.559 () Content URL: http://localhost/GrupoWZ/wp-content
+0000.559 () Uploads URL: http://localhost/GrupoWZ/wp-content/uploads
+0000.559 () Old table prefix: wp_
+0000.559 () Site information: multisite=0
+0000.562 () New table prefix: wp_
+0000.683 () Processing table (InnoDB): wp_options
+0001.105 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0001.213 () Processing table (InnoDB): wp_users
+0001.430 () Processing table (InnoDB): wp_usermeta
+0001.592 () Processing table (InnoDB): wp_commentmeta
+0001.746 () Processing table (InnoDB): wp_comments
+0001.937 () Processing table (InnoDB): wp_links
+0002.054 () Processing table (InnoDB): wp_postmeta
+0002.845 () Processing table (InnoDB): wp_posts
+0003.142 () Processing table (InnoDB): wp_term_relationships
+0003.414 () Processing table (InnoDB): wp_term_taxonomy
+0003.798 () Processing table (InnoDB): wp_termmeta
+0003.950 () Processing table (InnoDB): wp_terms
+0004.208 () Processing table (InnoDB): wp_grupowzcommentmeta
+0004.528 () Processing table (InnoDB): wp_grupowzcomments
+0004.815 () Processing table (InnoDB): wp_grupowzlinks
+0005.396 () Processing table (InnoDB): wp_grupowzoptions
+0005.667 () Database queries processed: 50 in 5.47 seconds
+0005.767 () Processing table (InnoDB): wp_grupowzpostmeta
+0005.971 () Processing table (InnoDB): wp_grupowzposts
+0006.178 () Processing table (InnoDB): wp_grupowzterm_relationships
+0007.576 () Processing table (InnoDB): wp_grupowzterm_taxonomy
+0008.060 () Processing table (InnoDB): wp_grupowztermmeta
+0008.633 () Processing table (InnoDB): wp_grupowzterms
+0009.305 () Processing table (InnoDB): wp_grupowzusermeta
+0009.929 () Processing table (InnoDB): wp_grupowzusers
+0010.417 () Unlocking database and leaving maintenance mode
+0010.417 () Desativando modo de manutenção&#8230;
+0010.418 () Finished: lines processed: 77 in 10.22 seconds
+0010.420 () Limpando a sujeira...
+0010.600 () Entity: uploads
+0010.600 () restore_backup(backup_file=backup_2019-11-05-0053_Grupo_WZ_b0478c9039b9-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:42:"C:\xampp\htdocs\GrupoWZ/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0010.601 () Desempacotando o backup... (backup_2019-11-05-0053_Grupo_WZ_b0478c9039b9-uploads.zip, 21.3 MB)
+0010.627 () Unzipping backup_2019-11-05-0053_Grupo_WZ_b0478c9039b9-uploads.zip to C:/xampp/htdocs/GrupoWZ/wp-content/upgrade/848c6996/ using UpdraftPlus_ZipArchive, starting index 0
+0015.939 () Unzip progress: 87 out of 87 files (21.3 MB, uploads/2019/11/top.png)
+0015.940 () Moving old data: filesystem method / updraft_dir is potentially possible
+0015.941 () Moving old data: can potentially use wp_filesystem method / -old
+0015.941 () Movendo dados antigos para fora do caminho...
+0015.971 () Movendo backup desempacotado para o local...
+0016.010 () Limpando a sujeira...
+0016.137 () Entity: others
+0016.137 () restore_backup(backup_file=backup_2019-11-05-0053_Grupo_WZ_b0478c9039b9-others.zip, type=others, info=a:2:{s:4:"path";s:34:"C:\xampp\htdocs\GrupoWZ/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0016.138 () Desempacotando o backup... (backup_2019-11-05-0053_Grupo_WZ_b0478c9039b9-others.zip, 0.6 MB)
+0016.140 () Unzipping backup_2019-11-05-0053_Grupo_WZ_b0478c9039b9-others.zip to C:/xampp/htdocs/GrupoWZ/wp-content/upgrade/b023ef78/ using UpdraftPlus_ZipArchive, starting index 0
+0016.810 () Unzip progress: 35 out of 35 files (2.2 MB, languages/themes/twentysixteen-pt_BR.po)
+0016.827 () Limpando a sujeira...
+0017.119 () The current theme was not found; to prevent this stopping the site from loading, your theme has been reverted to the default theme
+0017.119 () Restore successful!
+0017.120 () Restore successful

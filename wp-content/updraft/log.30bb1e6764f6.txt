@@ -1,0 +1,40 @@
+0000.006 () Opened log file at time: Fri, 19 Jun 2020 15:42:21 +0000 on https://grupowz.com.br
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.3 PHP: 7.1.6 (fpm-fcgi, Linux web7607.kinghost.net 4.4.180-1.el6.elrepo.x86_64 #1 SMP Thu May 16 16:37:14 EDT 2019 x86_64) MySQL: 5.6.48-log WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 35.4M | 8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 37785.8 MB
+0000.019 () Opened log file at time: Fri, 19 Jun 2020 15:42:22 +0000 on https://grupowz.com.br
+0000.020 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.3 PHP: 7.1.6 (fpm-fcgi, Linux web7607.kinghost.net 4.4.180-1.el6.elrepo.x86_64 #1 SMP Thu May 16 16:37:14 EDT 2019 x86_64) MySQL: 5.6.48-log WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 32.8M | 2M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.020 () Free space on disk containing Updraft's temporary directory: 37785.8 MB
+0000.082 () Ensuring WP_Filesystem is setup for a restore
+0000.083 () WP_Filesystem is setup and ready for a restore
+0000.100 () Restore job started. Entities to restore: plugins, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.104 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.106 () Entity: plugins
+0000.106 () restore_backup(backup_file=backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:36:"/home/grupowz/www/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.106 () Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip, 10 MB)
+0000.107 () Unzipping backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip to /home/grupowz/www/wp-content/upgrade/52bb8987/ using UpdraftPlus_ZipArchive, starting index 0
+0002.336 () Unzip progress: 1002 out of 2120 files (19.8 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/ContainerDeleteError.php)
+0002.918 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.918 () Moving old data: can potentially use wp_filesystem method / -old
+0002.918 () Movendo dados antigos para fora do caminho...
+0003.572 () Top-level entities being moved: akismet, updraftplus, advanced-custom-fields, contact-form-7, wpforms-lite
+0003.575 () Movendo backup desempacotado para o local...
+0004.197 () Top-level entities being moved: akismet, updraftplus, advanced-custom-fields, contact-form-7, wpforms-lite
+0004.199 () Limpando a sujeira...
+0004.201 () Entity: uploads
+0004.201 () restore_backup(backup_file=backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:36:"/home/grupowz/www/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0004.202 () Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-uploads.zip, 28.8 MB)
+0004.202 () Unzipping backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-uploads.zip to /home/grupowz/www/wp-content/upgrade/1cda9115/ using UpdraftPlus_ZipArchive, starting index 0
+0005.895 () Unzip progress: 141 out of 141 files (28.9 MB, uploads/2020/04/imagem7.jpg)
+0005.896 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.896 () Moving old data: can potentially use wp_filesystem method / -old
+0005.896 () Movendo dados antigos para fora do caminho...
+0005.917 () Movendo backup desempacotado para o local...
+0005.943 () Limpando a sujeira...
+0005.947 () Entity: others
+0005.947 () restore_backup(backup_file=backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-others.zip, type=others, info=a:2:{s:4:"path";s:28:"/home/grupowz/www/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0005.947 () Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-others.zip, 0.8 MB)
+0005.947 () Unzipping backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-others.zip to /home/grupowz/www/wp-content/upgrade/609c1dff/ using UpdraftPlus_ZipArchive, starting index 0
+0006.095 () Unzip progress: 47 out of 47 files (2.8 MB, web.config)
+0006.097 () Limpando a sujeira...
+0006.106 () Restore successful!
+0006.106 () Restore successful

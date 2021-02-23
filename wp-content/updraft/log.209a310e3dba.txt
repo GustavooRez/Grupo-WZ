@@ -1,0 +1,110 @@
+0000.003 () Opened log file at time: Fri, 19 Jun 2020 15:45:15 +0000 on https://grupowz.com.br
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.3 PHP: 7.1.6 (fpm-fcgi, Linux web7607.kinghost.net 4.4.180-1.el6.elrepo.x86_64 #1 SMP Thu May 16 16:37:14 EDT 2019 x86_64) MySQL: 5.6.48-log WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 35.4M | 6M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 37784.9 MB
+0000.003 () Opened log file at time: Fri, 19 Jun 2020 15:45:16 +0000 on https://grupowz.com.br
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.3 PHP: 7.1.6 (fpm-fcgi, Linux web7607.kinghost.net 4.4.180-1.el6.elrepo.x86_64 #1 SMP Thu May 16 16:37:14 EDT 2019 x86_64) MySQL: 5.6.48-log WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 134217728 (used: 32.8M | 2M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 37784.9 MB
+0000.015 () Ensuring WP_Filesystem is setup for a restore
+0000.015 () WP_Filesystem is setup and ready for a restore
+0000.021 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restore_table_options":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_grupowzcommentmeta","wp_grupowzcomments","wp_grupowzlinks","wp_grupowzoptions","wp_grupowzpostmeta","wp_grupowzposts","wp_grupowzterm_relationships","wp_grupowzterm_taxonomy","wp_grupowztermmeta","wp_grupowzterms","wp_grupowzusermeta","wp_grupowzusers","wp_wpforms_tasks_meta","wp_wpgmza","wp_wpgmza_circles","wp_wpgmza_maps","wp_wpgmza_polygon","wp_wpgmza_polylines","wp_wpgmza_rectangles"],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.024 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.026 () Entity: db
+0000.026 () restore_backup(backup_file=backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-db.gz, type=db, info=a:0:{}, last_one=)
+0000.027 () Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-db.gz, 0.4 Mb)
+0000.028 () Database successfully unpacked
+0000.028 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.028 () Using direct MySQL access; value of use_mysqli is: 1
+0000.029 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,
+0000.048 () Max packet size: 512 MB
+0000.048 () Entering maintenance mode
+0000.048 () Ativando modo de manutenção&#8230;
+0000.083 () Backup of: https://grupowz.com.br
+0000.085 () Content URL: https://grupowz.com.br/wp-content
+0000.086 () Uploads URL: https://grupowz.com.br/wp-content/uploads
+0000.086 () Old table prefix: wp_
+0000.086 () Site information: multisite=0
+0000.090 () New table prefix: wp_
+0000.102 () Processing table (InnoDB): wp_options
+0000.196 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.216 () Processing table (InnoDB): wp_users
+0000.269 () Processing table (InnoDB): wp_usermeta
+0000.281 () Processing table (InnoDB): wp_actionscheduler_actions
+0000.296 () Processing table (InnoDB): wp_actionscheduler_claims
+0000.307 () Processing table (InnoDB): wp_actionscheduler_groups
+0000.317 () Processing table (InnoDB): wp_actionscheduler_logs
+0000.330 () Processing table (InnoDB): wp_commentmeta
+0000.365 () Processing table (InnoDB): wp_comments
+0000.428 () Processing table (InnoDB): wp_links
+0000.458 () Processing table (InnoDB): wp_postmeta
+0000.725 () Processing table (InnoDB): wp_posts
+0000.812 () Processing table (InnoDB): wp_term_relationships
+0000.836 () Processing table (InnoDB): wp_term_taxonomy
+0000.845 () Database queries processed: 50 in 0.81 seconds
+0000.853 () Processing table (InnoDB): wp_termmeta
+0000.872 () Processing table (InnoDB): wp_terms
+0000.884 () Processing table (InnoDB): wp_grupowzcommentmeta
+0000.897 () Processing table (InnoDB): wp_grupowzcomments
+0000.913 () Processing table (InnoDB): wp_grupowzlinks
+0000.923 () Processing table (InnoDB): wp_grupowzoptions
+0000.986 () Processing table (InnoDB): wp_grupowzpostmeta
+0000.997 () Processing table (InnoDB): wp_grupowzposts
+0001.021 () Processing table (InnoDB): wp_grupowzterm_relationships
+0001.031 () Processing table (InnoDB): wp_grupowzterm_taxonomy
+0001.043 () Processing table (InnoDB): wp_grupowztermmeta
+0001.053 () Processing table (InnoDB): wp_grupowzterms
+0001.066 () Processing table (InnoDB): wp_grupowzusermeta
+0001.083 () Processing table (InnoDB): wp_grupowzusers
+0001.100 () Processing table (InnoDB): wp_wpforms_tasks_meta
+0001.112 () Processing table (InnoDB): wp_wpgmza
+0001.122 () Processing table (InnoDB): wp_wpgmza_circles
+0001.135 () Processing table (InnoDB): wp_wpgmza_maps
+0001.145 () Processing table (InnoDB): wp_wpgmza_polygon
+0001.150 () Database queries processed: 100 in 1.12 seconds
+0001.154 () Processing table (InnoDB): wp_wpgmza_polylines
+0001.163 () Processing table (InnoDB): wp_wpgmza_rectangles
+0001.220 () Unlocking database and leaving maintenance mode
+0001.220 () Desativando modo de manutenção&#8230;
+0001.221 () Finished: lines processed: 107 in 1.19 seconds
+0001.221 () Limpando a sujeira...
+0001.326 () Entity: plugins
+0001.326 () restore_backup(backup_file=backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:36:"/home/grupowz/www/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.326 () Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip, 10 MB)
+0001.327 () Unzipping backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip to /home/grupowz/www/wp-content/upgrade/52bb8987/ using UpdraftPlus_ZipArchive, starting index 0
+0001.645 () Unzip progress: 1002 out of 2120 files (19.8 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/ContainerDeleteError.php)
+0001.785 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.785 () Moving old data: can potentially use wp_filesystem method / -old
+0001.785 () Movendo dados antigos para fora do caminho...
+0002.309 () Top-level entities being moved: akismet, updraftplus, advanced-custom-fields, contact-form-7, wpforms-lite
+0002.311 () Movendo backup desempacotado para o local...
+0002.973 () Top-level entities being moved: akismet, updraftplus, advanced-custom-fields, contact-form-7, wpforms-lite
+0002.975 () Limpando a sujeira...
+0002.979 () Entity: themes
+0002.979 () restore_backup(backup_file=backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-themes.zip, type=themes, info=a:2:{s:4:"path";s:35:"/home/grupowz/www/wp-content/themes";s:11:"description";s:5:"Temas";}, last_one=)
+0002.979 () Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-themes.zip, 14.9 MB)
+0002.979 () Unzipping backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-themes.zip to /home/grupowz/www/wp-content/upgrade/15c64b2d/ using UpdraftPlus_ZipArchive, starting index 0
+0004.185 () Unzip progress: 415 out of 415 files (17.9 MB, themes/twentytwenty/templates/template-full-width.php)
+0004.186 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.186 () Moving old data: can potentially use wp_filesystem method / -old
+0004.186 () Movendo dados antigos para fora do caminho...
+0004.254 () Top-level entities being moved: byron, twentysixteen, twentytwenty, mapro, twentyfifteen, twentyseventeen, index.php, twentynineteen, calliope
+0004.256 () Movendo backup desempacotado para o local...
+0004.351 () Top-level entities being moved: byron, twentysixteen, twentytwenty, mapro, twentyfifteen, twentyseventeen, index.php, twentynineteen, calliope
+0004.353 () Limpando a sujeira...
+0004.356 () Entity: uploads
+0004.356 () restore_backup(backup_file=backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:36:"/home/grupowz/www/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0004.356 () Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-uploads.zip, 28.8 MB)
+0004.357 () Unzipping backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-uploads.zip to /home/grupowz/www/wp-content/upgrade/1cda9115/ using UpdraftPlus_ZipArchive, starting index 0
+0004.693 () Unzip progress: 141 out of 141 files (28.9 MB, uploads/2020/04/imagem7.jpg)
+0004.693 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.693 () Moving old data: can potentially use wp_filesystem method / -old
+0004.693 () Movendo dados antigos para fora do caminho...
+0004.718 () Movendo backup desempacotado para o local...
+0004.746 () Limpando a sujeira...
+0004.749 () Entity: others
+0004.749 () restore_backup(backup_file=backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-others.zip, type=others, info=a:2:{s:4:"path";s:28:"/home/grupowz/www/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0004.749 () Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-others.zip, 0.8 MB)
+0004.750 () Unzipping backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-others.zip to /home/grupowz/www/wp-content/upgrade/609c1dff/ using UpdraftPlus_ZipArchive, starting index 0
+0004.775 () Unzip progress: 47 out of 47 files (2.8 MB, web.config)
+0004.777 () Limpando a sujeira...
+0004.790 () Restore successful!
+0004.790 () Restore successful

@@ -1,0 +1,13 @@
+0000.001 (0) Opened log file at time: Fri, 24 Apr 2020 16:02:17 +0000 on https://grupowz.com.br
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.3 PHP: 7.1.32 (cgi-fcgi, Windows NT WEB1200 10.0 build 14393 (Windows Server 2016) i586) MySQL: 5.5.43-log WPLANG: pt_BR Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M | 6M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 33117.2 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.018 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2020-04-24 16:02:18
+0000.021 (0) Semaphore (fd, wp_options) reset to 1
+0000.022 (0) Set semaphore last lock (fd) time to 2020-04-24 16:02:18
+0000.023 (0) Semaphore lock (fd) complete
+0000.031 (0) Backup run: resumption=0, nonce=82e4f0a1b82c, file_nonce=82e4f0a1b82c begun at=1587744137 (1s ago), job type=backup
+0000.034 (0) Scheduling a resumption (1) after 300 seconds (1587744438) in case this run gets aborted
+0000.037 (0) PHP event: code E_WARNING: include_once(D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus/backup.php): failed to open stream: No such file or directory (line 2220, D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus\class-updraftplus.php)
+0000.038 (0) PHP event: code E_WARNING: include_once(): Failed opening 'D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus/backup.php' for inclusion (include_path='.;C:\php\pear') (line 2220, D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus\class-updraftplus.php)

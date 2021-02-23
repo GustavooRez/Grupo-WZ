@@ -1,0 +1,81 @@
+0000.181 (R) [notice] Procurando pelo arquivo db: nome do arquivo: backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-db.gz
+0000.182 (R) [notice] Espera-se que o arquivo tenha o tamanho: 446.5 KB: OK
+0000.188 (R) [notice] Procurando pelo arquivo plugins: nome do arquivo: backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip
+0000.190 (R) [notice] Espera-se que o arquivo tenha o tamanho: 10240.7 KB: OK
+0000.193 (R) [notice] Procurando pelo arquivo themes: nome do arquivo: backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-themes.zip
+0000.194 (R) [notice] Espera-se que o arquivo tenha o tamanho: 15244.5 KB: OK
+0000.211 (R) [notice] Procurando pelo arquivo uploads: nome do arquivo: backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-uploads.zip
+0000.212 (R) [notice] Espera-se que o arquivo tenha o tamanho: 29487.5 KB: OK
+0000.215 (R) [notice] Procurando pelo arquivo others: nome do arquivo: backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-others.zip
+0000.216 (R) [notice] Espera-se que o arquivo tenha o tamanho: 819.7 KB: OK
+0000.224 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.320 (R) [notice] Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-db.gz, 0.4 Mb)
+0000.350 (R) [notice] Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0001.248 (R) [notice] Ativando modo de manutenção&#8230;
+0001.264 (R) [notice] Backup de: https://grupowz.com.br
+0001.300 (R) [notice] URL do conteúdo: https://grupowz.com.br/wp-content
+0001.301 (R) [notice] URLs para upload: https://grupowz.com.br/wp-content/uploads
+0001.301 (R) [notice] Prefixo antigo da tabela: wp_
+0001.301 (R) [notice] Informações do site: multisite = 0
+0001.303 (R) [notice] New table prefix: wp_
+0001.512 (R) [notice] Tabela de processamento (InnoDB):  wp_options
+0013.867 (R) [notice] Tabela de processamento (InnoDB):  wp_users
+0015.024 (R) [notice] Tabela de processamento (InnoDB):  wp_usermeta
+0015.805 (R) [notice] Tabela de processamento (InnoDB):  wp_actionscheduler_actions
+0016.492 (R) [notice] Tabela de processamento (InnoDB):  wp_actionscheduler_claims
+0017.065 (R) [notice] Tabela de processamento (InnoDB):  wp_actionscheduler_groups
+0017.927 (R) [notice] Tabela de processamento (InnoDB):  wp_actionscheduler_logs
+0018.800 (R) [notice] Tabela de processamento (InnoDB):  wp_commentmeta
+0019.432 (R) [notice] Tabela de processamento (InnoDB):  wp_comments
+0021.294 (R) [notice] Tabela de processamento (InnoDB):  wp_links
+0022.208 (R) [notice] Tabela de processamento (InnoDB):  wp_postmeta
+0026.179 (R) [notice] Tabela de processamento (InnoDB):  wp_posts
+0027.897 (R) [notice] Tabela de processamento (InnoDB):  wp_term_relationships
+0028.650 (R) [notice] Tabela de processamento (InnoDB):  wp_term_taxonomy
+0029.018 (R) [notice] Database queries processed: 50 in 28.66 seconds
+0029.506 (R) [notice] Tabela de processamento (InnoDB):  wp_termmeta
+0030.027 (R) [notice] Tabela de processamento (InnoDB):  wp_terms
+0031.620 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzcommentmeta
+0033.056 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzcomments
+0034.009 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzlinks
+0034.687 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzoptions
+0037.135 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzpostmeta
+0038.188 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzposts
+0039.744 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzterm_relationships
+0041.165 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzterm_taxonomy
+0041.829 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowztermmeta
+0043.452 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzterms
+0044.295 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzusermeta
+0045.948 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzusers
+0046.845 (R) [notice] Tabela de processamento (InnoDB):  wp_wpforms_tasks_meta
+0047.638 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza
+0049.187 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_circles
+0050.077 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_maps
+0050.859 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_polygon
+0051.605 (R) [notice] Database queries processed: 100 in 51.25 seconds
+0052.164 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_polylines
+0053.181 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_rectangles
+0053.755 (R) [notice] Desativando modo de manutenção&#8230;
+0053.756 (R) [notice] Finished: lines processed: 107 in 53.40 seconds
+0053.757 (R) [notice] Limpando a sujeira...
+0053.980 (R) [notice] Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip, 10 MB)
+0073.576 (R) [notice] Unzip progress: 461 out of 2120 files (16.7 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/S3/Exception/NoSuchWebsiteConfigurationException.php)
+0089.325 (R) [notice] Unzip progress: 983 out of 2120 files (19.8 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Collection.php)
+0105.334 (R) [notice] Unzip progress: 1510 out of 2120 files (28.1 MB, plugins/wpforms-lite/src/Admin/FlyoutMenu.php)
+0112.397 (R) [notice] Movendo dados antigos para fora do caminho...
+0112.983 (R) [notice] Movendo backup desempacotado para o local...
+0113.518 (R) [notice] Limpando a sujeira...
+0113.664 (R) [notice] Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-themes.zip, 14.9 MB)
+0126.019 (R) [notice] Unzip progress: 415 out of 415 files (17.9 MB, themes/twentytwenty/templates/template-full-width.php)
+0126.026 (R) [notice] Movendo dados antigos para fora do caminho...
+0126.107 (R) [notice] Movendo backup desempacotado para o local...
+0126.210 (R) [notice] Limpando a sujeira...
+0126.457 (R) [notice] Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-uploads.zip, 28.8 MB)
+0131.420 (R) [notice] Unzip progress: 141 out of 141 files (28.9 MB, uploads/2020/04/imagem7.jpg)
+0131.424 (R) [notice] Movendo dados antigos para fora do caminho...
+0131.550 (R) [notice] Movendo backup desempacotado para o local...
+0131.968 (R) [notice] Limpando a sujeira...
+0132.288 (R) [notice] Desempacotando o backup... (backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-others.zip, 0.8 MB)
+0133.837 (R) [notice] Unzip progress: 47 out of 47 files (2.8 MB, web.config)
+0133.877 (R) [notice] Limpando a sujeira...
+0134.028 (R) [notice] Restore successful!

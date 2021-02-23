@@ -1,0 +1,275 @@
+0000.001 (0) Opened log file at time: Thu, 21 Nov 2019 13:38:59 +0000 on http://localhost/GrupoWZ
+0000.093 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.3.5 (apache2handler, Windows NT GUSTAVO-PC 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.1.39-MariaDB WPLANG: pt_BR Server: Apache/2.4.39 (Win64) OpenSSL/1.1.1b PHP/7.3.5 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.4M | 6M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.162 (0) Free space on disk containing Updraft's temporary directory: 182685.2 MB
+0000.245 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.402 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.509 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-11-21 13:39:00
+0000.646 (0) Semaphore (fd, wp_options) reset to 1
+0000.775 (0) Set semaphore last lock (fd) time to 2019-11-21 13:39:00
+0000.856 (0) Semaphore lock (fd) complete
+0001.156 (0) Backup run: resumption=0, nonce=701a69ef7237, file_nonce=701a69ef7237 begun at=1574343539 (2s ago), job type=backup
+0001.276 (0) Scheduling a resumption (1) after 300 seconds (1574343841) in case this run gets aborted
+0001.497 (0) Checking if we have a zip executable available
+0001.666 (0) Creation of backups of directories: beginning
+0001.926 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.132 (0) Total entities for the zip file: 368 directories, 2149 files (0 skipped as non-modified), 36.7 MB
+0004.038 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 74 (74) files added so far); re-opening (prior size: 0 KB)
+0004.812 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 100 files added (on-disk size: 520.3 KB)
+0005.321 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 200 files added (on-disk size: 520.3 KB)
+0007.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.5 MB, 218 (292) files added so far); re-opening (prior size: 520.3 KB)
+0007.956 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 300 files added (on-disk size: 2133 KB)
+0010.022 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 70 (362) files added so far); re-opening (prior size: 2133 KB)
+0010.716 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 400 files added (on-disk size: 2516 KB)
+0011.683 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 500 files added (on-disk size: 2516 KB)
+0013.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 187 (549) files added so far); re-opening (prior size: 2516 KB)
+0014.193 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 600 files added (on-disk size: 3527.5 KB)
+0015.439 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 700 files added (on-disk size: 3527.5 KB)
+0016.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (15.2 MB, 227 (776) files added so far); re-opening (prior size: 3527.5 KB)
+0017.889 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 800 files added (on-disk size: 7504.9 KB)
+0019.492 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 900 files added (on-disk size: 7504.9 KB)
+0020.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 173 (949) files added so far); re-opening (prior size: 7504.9 KB)
+0021.110 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1000 files added (on-disk size: 7682.1 KB)
+0022.446 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1100 files added (on-disk size: 7682.1 KB)
+0023.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 193 (1142) files added so far); re-opening (prior size: 7682.1 KB)
+0024.885 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1200 files added (on-disk size: 8079.7 KB)
+0026.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 130 (1272) files added so far); re-opening (prior size: 8079.7 KB)
+0027.193 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1300 files added (on-disk size: 8206.9 KB)
+0028.615 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1400 files added (on-disk size: 8206.9 KB)
+0029.040 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 153 (1425) files added so far); re-opening (prior size: 8206.9 KB)
+0030.456 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1500 files added (on-disk size: 8395.6 KB)
+0031.587 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1600 files added (on-disk size: 8395.6 KB)
+0032.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 196 (1621) files added so far); re-opening (prior size: 8395.6 KB)
+0033.965 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1700 files added (on-disk size: 8797.9 KB)
+0034.468 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1800 files added (on-disk size: 8797.9 KB)
+0036.257 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.2 MB, 270 (1891) files added so far); re-opening (prior size: 8797.9 KB)
+0037.262 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 1900 files added (on-disk size: 11335.2 KB)
+0038.614 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 2000 files added (on-disk size: 11335.2 KB)
+0040.017 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 181 (2072) files added so far); re-opening (prior size: 11335.2 KB)
+0042.238 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip.tmp: 2100 files added (on-disk size: 11749 KB)
+0043.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 66 (2138) files added so far); re-opening (prior size: 11749 KB)
+0044.585 (0) Created plugins zip (0) - 11842.3 KB in 42.6 s (278 KB/s) (sha1: fed82055d55598104cb5caec5d4b986984c5feb9, sha256: 15a37f75823080166add19c0e3dfec5c4dfde62cfca103d4a6cfb77bc69fff78)
+0044.647 (0) Deleting old temporary file: log.eea34dd9e5cb-browser.txt
+0044.772 (0) Deleting old temporary file: log.f9764c766f72-browser.txt
+0044.898 (0) Beginning creation of dump of themes (split every: 400 MB)
+0045.230 (0) Total entities for the zip file: 54 directories, 254 files (0 skipped as non-modified), 15.3 MB
+0046.194 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0047.114 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (13.9 MB, 167 (167) files added so far); re-opening (prior size: 0 KB)
+0048.294 (0) Zip: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-themes.zip.tmp: 200 files added (on-disk size: 12433.1 KB)
+0050.700 (0) Created themes zip (0) - 13462.7 KB in 5.7 s (2352.2 KB/s) (sha1: b6826968311082619ea8f26fade92a46e556b9fd, sha256: 69c8fc001bbc18f25a74b11659a450d269ae4fd06486b1bbe6507924eea9d86c)
+0051.195 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0051.480 (0) Looking for candidates to backup in: C:\xampp\htdocs\grupowz/wp-content/uploads
+0052.101 (0) finding files: 2019: adding to list (1)
+0052.366 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0053.017 (0) Total entities for the zip file: 3 directories, 96 files (0 skipped as non-modified), 26.8 MB
+0053.272 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.4 MB, 96 files batched, 93 (93) added so far); re-opening (prior size: 0 KB)
+0054.466 (0) A useful amount of data was added after this amount of zip processing: 2.5 s (normalised: 2.3 s, rate: 11000.9 KB/s)
+0055.587 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.4533131122589, normalised_time=2.3270871182827, max_time=54.95481801033, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0058.629 (0) Created uploads zip (0) - 27476 KB in 5.6 s (4909.3 KB/s) (sha1: 6acb3ae1921af9fa9258b7370080d6b3da9b18fa, sha256: 7dd5905acf0942b011c8c2154ccfd9840f21c01a5bbe2d8e1c73ad207082d838)
+0061.620 (0) Beginning backup of other directories found in the content directory (index: 0)
+0061.820 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0061.952 (0) Looking for candidates to backup in: C:\xampp\htdocs\grupowz/wp-content
+0062.274 (0) finding files: index.php: adding to list (1)
+0062.572 (0) finding files: languages: adding to list (2)
+0062.672 (0) finding files: plugins: skipping: this is the plugins directory
+0062.716 (0) finding files: plugins-old: adding to list (3)
+0062.805 (0) finding files: themes: skipping: this is the themes directory
+0062.893 (0) finding files: updraft: skipping: this is the updraft directory
+0063.026 (0) finding files: upgrade: skipping: excluded by options
+0063.056 (0) finding files: uploads: skipping: this is the uploads directory
+0063.116 (0) finding files: uploads-old: adding to list (4)
+0063.562 (0) Total entities for the zip file: 5 directories, 30 files (0 skipped as non-modified), 2.2 MB
+0064.303 (0) Created others zip (0) - 629.2 KB in 0.9 s (677.8 KB/s) (sha1: 77271a43c6a68983487cda4e268f8df529c9752c, sha256: e757279a8f9171dbad23386257a4021f32ddebcb1efd70044c983849576f24c6)
+0064.675 (0) Saving backup status to database (elements: 8)
+0064.841 (0) Beginning creation of database dump (WordPress DB)
+0066.085 (0) Table wp_options: Total expected rows (approximate): 204
+0066.563 (0) Table wp_options: Total rows added: 203 in 0.15 seconds
+0066.858 (0) Table wp_options: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_options.table.gz - 179.3 KB)
+0067.158 (0) Table wp_users: Total expected rows (approximate): 1
+0067.491 (0) Table wp_users: Total rows added: 1 in 0.15 seconds
+0067.604 (0) Table wp_users: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_users.table.gz - 0.5 KB)
+0067.818 (0) Table wp_usermeta: Total expected rows (approximate): 27
+0068.096 (0) Table wp_usermeta: Total rows added: 27 in 0.04 seconds
+0068.255 (0) Table wp_usermeta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_usermeta.table.gz - 1.6 KB)
+0068.584 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0068.695 (0) Table wp_commentmeta: Total rows added: 0 in 0.02 seconds
+0068.765 (0) Table wp_commentmeta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0068.980 (0) Table wp_comments: Total expected rows (approximate): 1
+0069.047 (0) Table wp_comments: Total rows added: 1 in 0.03 seconds
+0069.140 (0) Table wp_comments: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_comments.table.gz - 0.7 KB)
+0069.494 (0) Table wp_links: Total expected rows (approximate): 0
+0069.647 (0) Table wp_links: Total rows added: 0 in 0.07 seconds
+0069.780 (0) Table wp_links: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_links.table.gz - 0.4 KB)
+0069.931 (0) Table wp_postmeta: Total expected rows (approximate): 4284
+0070.309 (0) Table wp_postmeta: Total rows added: 4286 in 0.34 seconds
+0070.405 (0) Table wp_postmeta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_postmeta.table.gz - 37.3 KB)
+0070.676 (0) Table wp_posts: Total expected rows (approximate): 218
+0071.021 (0) Table wp_posts: Total rows added: 218 in 0.27 seconds
+0071.281 (0) Table wp_posts: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_posts.table.gz - 14.5 KB)
+0071.628 (0) Table wp_term_relationships: Total expected rows (approximate): 11
+0071.739 (0) Table wp_term_relationships: Total rows added: 11 in 0.03 seconds
+0071.831 (0) Table wp_term_relationships: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0071.993 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0072.071 (0) Table wp_term_taxonomy: Total rows added: 2 in 0.05 seconds
+0072.162 (0) Table wp_term_taxonomy: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0072.651 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0072.772 (0) Table wp_termmeta: Total rows added: 0 in 0.03 seconds
+0072.818 (0) Table wp_termmeta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_termmeta.table.gz - 0.4 KB)
+0073.035 (0) Table wp_terms: Total expected rows (approximate): 2
+0073.135 (0) Table wp_terms: Total rows added: 2 in 0.02 seconds
+0073.181 (0) Table wp_terms: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_terms.table.gz - 0.4 KB)
+0073.765 (0) Table wp_grupowzcommentmeta: Total expected rows (approximate): 0
+0073.924 (0) Table wp_grupowzcommentmeta: Total rows added: 0 in 0.01 seconds
+0074.080 (0) Table wp_grupowzcommentmeta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzcommentmeta.table.gz - 0.4 KB)
+0074.488 (0) Table wp_grupowzcomments: Total expected rows (approximate): 1
+0074.652 (0) Table wp_grupowzcomments: Total rows added: 1 in 0.06 seconds
+0074.782 (0) Table wp_grupowzcomments: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzcomments.table.gz - 0.7 KB)
+0075.454 (0) Table wp_grupowzlinks: Total expected rows (approximate): 0
+0075.548 (0) Table wp_grupowzlinks: Total rows added: 0 in 0.01 seconds
+0075.674 (0) Table wp_grupowzlinks: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzlinks.table.gz - 0.4 KB)
+0075.947 (0) Table wp_grupowzoptions: Total expected rows (approximate): 171
+0076.466 (0) Table wp_grupowzoptions: Total rows added: 174 in 0.42 seconds
+0076.503 (0) Table wp_grupowzoptions: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzoptions.table.gz - 168.1 KB)
+0076.655 (0) Table wp_grupowzpostmeta: Total expected rows (approximate): 17
+0076.732 (0) Table wp_grupowzpostmeta: Total rows added: 17 in 0.03 seconds
+0076.836 (0) Table wp_grupowzpostmeta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzpostmeta.table.gz - 0.6 KB)
+0077.160 (0) Table wp_grupowzposts: Total expected rows (approximate): 14
+0077.485 (0) Table wp_grupowzposts: Total rows added: 14 in 0.08 seconds
+0077.577 (0) Table wp_grupowzposts: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzposts.table.gz - 3.7 KB)
+0077.963 (0) Table wp_grupowzterm_relationships: Total expected rows (approximate): 1
+0078.101 (0) Table wp_grupowzterm_relationships: Total rows added: 1 in 0.03 seconds
+0078.171 (0) Table wp_grupowzterm_relationships: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzterm_relationships.table.gz - 0.4 KB)
+0078.585 (0) Table wp_grupowzterm_taxonomy: Total expected rows (approximate): 1
+0078.835 (0) Table wp_grupowzterm_taxonomy: Total rows added: 1 in 0.05 seconds
+0078.957 (0) Table wp_grupowzterm_taxonomy: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzterm_taxonomy.table.gz - 0.4 KB)
+0079.434 (0) Table wp_grupowztermmeta: Total expected rows (approximate): 0
+0079.549 (0) Table wp_grupowztermmeta: Total rows added: 0 in 0.04 seconds
+0079.717 (0) Table wp_grupowztermmeta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowztermmeta.table.gz - 0.4 KB)
+0080.142 (0) Table wp_grupowzterms: Total expected rows (approximate): 1
+0080.326 (0) Table wp_grupowzterms: Total rows added: 1 in 0.13 seconds
+0080.481 (0) Table wp_grupowzterms: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzterms.table.gz - 0.4 KB)
+0081.046 (0) Table wp_grupowzusermeta: Total expected rows (approximate): 17
+0081.400 (0) Table wp_grupowzusermeta: Total rows added: 17 in 0.12 seconds
+0081.963 (0) Table wp_grupowzusermeta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzusermeta.table.gz - 1 KB)
+0082.484 (0) Table wp_grupowzusers: Total expected rows (approximate): 1
+0082.861 (0) Table wp_grupowzusers: Total rows added: 1 in 0.21 seconds
+0082.901 (0) Table wp_grupowzusers: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzusers.table.gz - 0.6 KB)
+0083.409 (0) Table wp_wpgmza: Total expected rows (approximate): 0
+0083.486 (0) Table wp_wpgmza: Total rows added: 0 in 0.04 seconds
+0083.522 (0) Table wp_wpgmza: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza.table.gz - 0.4 KB)
+0083.790 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0083.869 (0) Table wp_wpgmza_circles: Total rows added: 0 in 0.01 seconds
+0083.909 (0) Table wp_wpgmza_circles: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_circles.table.gz - 0.3 KB)
+0084.081 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0084.238 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.06 seconds
+0084.369 (0) Table wp_wpgmza_maps: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_maps.table.gz - 1.2 KB)
+0084.658 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0084.772 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.05 seconds
+0084.854 (0) Table wp_wpgmza_polygon: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_polygon.table.gz - 0.4 KB)
+0085.058 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0085.128 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.01 seconds
+0085.183 (0) Table wp_wpgmza_polylines: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_polylines.table.gz - 0.3 KB)
+0085.408 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0085.519 (0) Table wp_wpgmza_rectangles: Total rows added: 0 in 0.01 seconds
+0085.584 (0) Table wp_wpgmza_rectangles: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_rectangles.table.gz - 0.3 KB)
+0085.890 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0085.957 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.03 seconds
+0086.001 (0) Table wp_yoast_seo_links: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0086.152 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0086.440 (0) Table wp_yoast_seo_meta: Total rows added: 0 in 0.12 seconds
+0086.557 (0) Table wp_yoast_seo_meta: finishing file (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_yoast_seo_meta.table.gz - 0.3 KB)
+0086.740 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_options.table.gz (1/32): adding to final database dump
+0086.832 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_users.table.gz (2/32): adding to final database dump
+0086.917 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_usermeta.table.gz (3/32): adding to final database dump
+0086.994 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_commentmeta.table.gz (4/32): adding to final database dump
+0087.027 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_comments.table.gz (5/32): adding to final database dump
+0087.104 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_links.table.gz (6/32): adding to final database dump
+0087.138 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_postmeta.table.gz (7/32): adding to final database dump
+0087.199 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_posts.table.gz (8/32): adding to final database dump
+0087.288 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_term_relationships.table.gz (9/32): adding to final database dump
+0087.449 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_term_taxonomy.table.gz (10/32): adding to final database dump
+0087.637 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_termmeta.table.gz (11/32): adding to final database dump
+0087.713 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_terms.table.gz (12/32): adding to final database dump
+0087.769 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzcommentmeta.table.gz (13/32): adding to final database dump
+0087.824 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzcomments.table.gz (14/32): adding to final database dump
+0087.946 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzlinks.table.gz (15/32): adding to final database dump
+0088.024 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzoptions.table.gz (16/32): adding to final database dump
+0088.096 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzpostmeta.table.gz (17/32): adding to final database dump
+0088.263 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzposts.table.gz (18/32): adding to final database dump
+0088.379 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzterm_relationships.table.gz (19/32): adding to final database dump
+0088.477 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzterm_taxonomy.table.gz (20/32): adding to final database dump
+0088.580 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowztermmeta.table.gz (21/32): adding to final database dump
+0088.622 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzterms.table.gz (22/32): adding to final database dump
+0088.655 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzusermeta.table.gz (23/32): adding to final database dump
+0088.689 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_grupowzusers.table.gz (24/32): adding to final database dump
+0088.777 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza.table.gz (25/32): adding to final database dump
+0088.864 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_circles.table.gz (26/32): adding to final database dump
+0088.937 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_maps.table.gz (27/32): adding to final database dump
+0088.976 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_polygon.table.gz (28/32): adding to final database dump
+0089.012 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_polylines.table.gz (29/32): adding to final database dump
+0089.053 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_wpgmza_rectangles.table.gz (30/32): adding to final database dump
+0089.086 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_yoast_seo_links.table.gz (31/32): adding to final database dump
+0089.152 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db-table-wp_yoast_seo_meta.table.gz (32/32): adding to final database dump
+0089.341 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db.gz: finished writing out complete database file (400 KB)
+0089.760 (0) Total database tables backed up: 32 (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db.gz, size: 418995, sha1: bce66833b02d84e82dc824dc5c65f40907f0c49d, sha256: 91dbff6b55319aa35ec6fb1db361a1b62341340c9a66a0643ba16772503df44b)
+0090.070 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0090.157 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0090.311 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0090.370 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-others.zip: others: This file has not yet been successfully uploaded: will queue
+0090.435 (0) backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db.gz: db: This file has not yet been successfully uploaded: will queue
+0090.503 (0) Saving backup history. Total backup size: 52.6 MB
+0090.646 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0090.835 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0090.958 (0) No remote despatch: user chose no remote backup service
+0091.094 (0) Recording as successfully uploaded: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip
+0091.467 (0) Recording as successfully uploaded: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-themes.zip
+0091.622 (0) Recording as successfully uploaded: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-uploads.zip
+0091.689 (0) Recording as successfully uploaded: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-others.zip
+0091.843 (0) Recording as successfully uploaded: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db.gz
+0091.942 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0091.977 (0) Number of backup sets in history: 3; groups (db): 1
+0092.007 (0) Examining (for databases) backup set with group_id=0, nonce=701a69ef7237, datestamp=1574343539 (Nov 21 2019 13:38:59)
+0092.042 (0) This backup set is the backup set just made, so will not be deleted.
+0092.042 (0) Examining (for databases) backup set with group_id=0, nonce=2838fb349aa2, datestamp=1574218920 (Nov 20 2019 03:02:00)
+0092.042 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0092.074 (0) Examining (for databases) backup set with group_id=0, nonce=6dbc1c91de77, datestamp=1574131680 (Nov 19 2019 02:48:00)
+0092.074 (0) 1574131680: db: this set includes a database (backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-db.gz); db count is now 2
+0092.074 (0) 1574131680: db: over retain limit (2); will delete this database
+0092.074 (0) Delete file: backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-db.gz, service=none
+0092.109 (0) Deleting local copy (backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-db.gz)
+0092.317 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0092.442 (0) Number of backup sets in history: 3; groups (files): 1
+0092.472 (0) Examining (for files) backup set with nonce=701a69ef7237, datestamp=1574343539 (Nov 21 2019 13:38:59)
+0092.472 (0) This backup set is the backup set just made, so will not be deleted.
+0092.508 (0) This backup set is the backup set just made, so will not be deleted.
+0092.508 (0) This backup set is the backup set just made, so will not be deleted.
+0092.509 (0) This backup set is the backup set just made, so will not be deleted.
+0092.509 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0092.561 (0) Examining (for files) backup set with nonce=2838fb349aa2, datestamp=1574218920 (Nov 20 2019 03:02:00)
+0092.562 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0092.562 (0) Examining (for files) backup set with nonce=6dbc1c91de77, datestamp=1574131680 (Nov 19 2019 02:48:00)
+0092.562 (0) plugins: over retain limit (2); will delete this file entity
+0092.562 (0) themes: over retain limit (2); will delete this file entity
+0092.562 (0) uploads: over retain limit (2); will delete this file entity
+0092.562 (0) others: over retain limit (2); will delete this file entity
+0092.562 (0) Delete file: backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-plugins.zip, service=none
+0092.632 (0) Deleting local copy (backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-plugins.zip)
+0092.731 (0) Delete file: backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-themes.zip, service=none
+0092.761 (0) Deleting local copy (backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-themes.zip)
+0092.827 (0) Delete file: backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-uploads.zip, service=none
+0092.865 (0) Deleting local copy (backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-uploads.zip)
+0092.951 (0) Delete file: backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-others.zip, service=none
+0092.982 (0) Deleting local copy (backup_2019-11-19-0048_Grupo_WZ_6dbc1c91de77-others.zip)
+0093.048 (0) This backup set is now empty; will remove from history
+0093.086 (0) Deleting log file (log.6dbc1c91de77.txt)
+0093.116 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0093.334 (0) Resume backup (701a69ef7237, 0): finish run
+0093.702 (0) Decremented the semaphore (fd) by 1
+0093.841 (0) Semaphore (fd) unlocked
+0093.992 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0094.480 (0) The backup apparently succeeded and is now complete
+0094.613 (0) No email will/can be sent - the user has not configured an email address.
+0094.675 (0) O backup aparentemente foi bem sucedido e está completo agora.
+0000.000 (1) Opened log file at time: Thu, 11 Jun 2020 18:00:58 +0000 on http://localhost/GrupoWZ
+0000.242 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.3 PHP: 7.3.10 (apache2handler, Windows NT MHR-COMPUTER 10.0 build 18363 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: pt_BR Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 28.5M | 10M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.420 (1) Free space on disk containing Updraft's temporary directory: 55287.3 MB
+0000.496 (1) This backup task (701a69ef7237) is either complete or began over 2 days ago: ending (1591898458.4277, ) (existing jobdata keys: )

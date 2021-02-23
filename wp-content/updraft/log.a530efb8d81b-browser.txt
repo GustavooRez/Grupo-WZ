@@ -1,0 +1,81 @@
+0000.288 (R) [notice] Procurando pelo arquivo db: nome do arquivo: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db.gz
+0000.289 (R) [notice] Espera-se que o arquivo tenha o tamanho: 409.2 KB: OK
+0000.302 (R) [notice] Procurando pelo arquivo plugins: nome do arquivo: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip
+0000.303 (R) [notice] Espera-se que o arquivo tenha o tamanho: 11842.3 KB: OK
+0000.307 (R) [notice] Procurando pelo arquivo themes: nome do arquivo: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-themes.zip
+0000.308 (R) [notice] Espera-se que o arquivo tenha o tamanho: 13462.7 KB: OK
+0000.315 (R) [notice] Procurando pelo arquivo uploads: nome do arquivo: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-uploads.zip
+0000.316 (R) [notice] Espera-se que o arquivo tenha o tamanho: 27476 KB: OK
+0000.320 (R) [notice] Procurando pelo arquivo others: nome do arquivo: backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-others.zip
+0000.321 (R) [notice] Espera-se que o arquivo tenha o tamanho: 629.2 KB: OK
+0000.327 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.410 (R) [notice] Desempacotando o backup... (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-db.gz, 0.4 Mb)
+0000.430 (R) [notice] Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0001.658 (R) [notice] Ativando modo de manutenção&#8230;
+0001.665 (R) [notice] Backup de: http://localhost/GrupoWZ
+0001.665 (R) [notice] URL do conteúdo: http://localhost/GrupoWZ/wp-content
+0001.666 (R) [notice] URLs para upload: http://localhost/GrupoWZ/wp-content/uploads
+0001.666 (R) [notice] Prefixo antigo da tabela: wp_
+0001.666 (R) [notice] Informações do site: multisite = 0
+0001.668 (R) [notice] New table prefix: wp_
+0001.938 (R) [notice] Tabela de processamento (InnoDB):  wp_options
+0003.679 (R) [notice] Tabela de processamento (InnoDB):  wp_users
+0004.202 (R) [notice] Tabela de processamento (InnoDB):  wp_usermeta
+0005.074 (R) [notice] Tabela de processamento (InnoDB):  wp_commentmeta
+0005.824 (R) [notice] Tabela de processamento (InnoDB):  wp_comments
+0006.494 (R) [notice] Tabela de processamento (InnoDB):  wp_links
+0007.089 (R) [notice] Tabela de processamento (InnoDB):  wp_postmeta
+0010.090 (R) [notice] Tabela de processamento (InnoDB):  wp_posts
+0010.754 (R) [notice] Tabela de processamento (InnoDB):  wp_term_relationships
+0011.511 (R) [notice] Tabela de processamento (InnoDB):  wp_term_taxonomy
+0012.864 (R) [notice] Tabela de processamento (InnoDB):  wp_termmeta
+0013.552 (R) [notice] Tabela de processamento (InnoDB):  wp_terms
+0015.383 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzcommentmeta
+0016.992 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzcomments
+0018.434 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzlinks
+0018.820 (R) [notice] Database queries processed: 50 in 18.37 seconds
+0019.234 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzoptions
+0022.661 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzpostmeta
+0025.274 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzposts
+0026.473 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzterm_relationships
+0027.287 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzterm_taxonomy
+0029.372 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowztermmeta
+0030.226 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzterms
+0031.008 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzusermeta
+0032.500 (R) [notice] Tabela de processamento (InnoDB):  wp_grupowzusers
+0033.690 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza
+0035.367 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_circles
+0037.231 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_maps
+0038.629 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_polygon
+0040.117 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_polylines
+0041.314 (R) [notice] Tabela de processamento (InnoDB):  wp_wpgmza_rectangles
+0042.089 (R) [notice] Tabela de processamento (InnoDB):  wp_yoast_seo_links
+0043.605 (R) [notice] Tabela de processamento (InnoDB):  wp_yoast_seo_meta
+0044.652 (R) [notice] Desativando modo de manutenção&#8230;
+0044.653 (R) [notice] Finished: lines processed: 97 in 44.20 seconds
+0044.654 (R) [notice] Limpando a sujeira...
+0046.794 (R) [notice] Desempacotando o backup... (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-plugins.zip, 11.6 MB)
+0063.951 (R) [notice] Unzip progress: 675 out of 2517 files (7.3 MB, plugins/contact-form-7/modules/acceptance.php)
+0079.699 (R) [notice] Unzip progress: 1026 out of 2517 files (17.1 MB, plugins/updraftplus/languages/updraftplus-eu.po)
+0097.489 (R) [notice] Unzip progress: 1171 out of 2517 files (26.3 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Enum/Time.php)
+0113.819 (R) [notice] Unzip progress: 1468 out of 2517 files (27.2 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CouldNotRewindStreamException.php)
+0129.733 (R) [notice] Unzip progress: 1766 out of 2517 files (28.3 MB, plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/SassphpFilter.php)
+0145.727 (R) [notice] Unzip progress: 2221 out of 2517 files (34.6 MB, plugins/wpforms-lite/includes/admin/class-about.php)
+0158.890 (R) [notice] Unzip progress: 2517 out of 2517 files (36.7 MB, plugins/wpforms-lite/wpforms.php)
+0158.894 (R) [notice] Movendo dados antigos para fora do caminho...
+0159.447 (R) [notice] Movendo backup desempacotado para o local...
+0159.953 (R) [notice] Limpando a sujeira...
+0160.085 (R) [notice] Desempacotando o backup... (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-themes.zip, 13.1 MB)
+0173.197 (R) [notice] Unzip progress: 308 out of 308 files (15.3 MB, themes/twentysixteen/template-parts/content.php)
+0173.199 (R) [notice] Movendo dados antigos para fora do caminho...
+0173.360 (R) [notice] Movendo backup desempacotado para o local...
+0173.542 (R) [notice] Limpando a sujeira...
+0173.703 (R) [notice] Desempacotando o backup... (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-uploads.zip, 26.8 MB)
+0175.634 (R) [notice] Unzip progress: 99 out of 99 files (26.8 MB, uploads/2019/11/top.png)
+0175.637 (R) [notice] Movendo dados antigos para fora do caminho...
+0175.662 (R) [notice] Movendo backup desempacotado para o local...
+0175.691 (R) [notice] Limpando a sujeira...
+0175.898 (R) [notice] Desempacotando o backup... (backup_2019-11-21-1138_Grupo_WZ_701a69ef7237-others.zip, 0.6 MB)
+0177.269 (R) [notice] Unzip progress: 35 out of 35 files (2.2 MB, languages/themes/twentysixteen-pt_BR.po)
+0177.284 (R) [notice] Limpando a sujeira...
+0180.973 (R) [notice] Restore successful!

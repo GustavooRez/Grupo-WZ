@@ -1,0 +1,6 @@
+0001.096 (R) [notice] Procurando pelo arquivo db: nome do arquivo: backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-db.gz
+0001.097 (R) [notice] Espera-se que o arquivo tenha o tamanho: 446.5 KB: OK
+0001.104 (R) [notice] Procurando pelo arquivo plugins: nome do arquivo: backup_2020-04-24-1345_Grupo_WZ_2ba73b878769-plugins.zip
+0001.108 (R) [notice] Espera-se que o arquivo tenha o tamanho: 10240.7 KB: OK
+0001.251 (R) [warning] Erro: Pastas não-removidas que existiam de um restore anterior foram encontradas (por favor utilize o botão "Deletar Antigos Diretórios" para deletá-las antes de tentar novamente): C:\xampp\htdocs\GrupoWZ/wp-content/updraft/plugins-old
+0001.252 (R) [notice] Restore failed...

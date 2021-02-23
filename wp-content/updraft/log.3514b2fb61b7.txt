@@ -1,0 +1,13 @@
+0000.228 () Opened log file at time: Thu, 11 Jun 2020 18:09:30 +0000 on http://localhost/GrupoWZ
+0000.229 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.3 PHP: 7.3.10 (apache2handler, Windows NT MHR-COMPUTER 10.0 build 18363 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: pt_BR Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.9M | 8M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.229 () Free space on disk containing Updraft's temporary directory: 54951.8 MB
+0000.268 () Opened log file at time: Thu, 11 Jun 2020 18:09:32 +0000 on http://localhost/GrupoWZ
+0000.269 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.3 PHP: 7.3.10 (apache2handler, Windows NT MHR-COMPUTER 10.0 build 18363 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: pt_BR Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 40.4M | 14M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.269 () Free space on disk containing Updraft's temporary directory: 54951.6 MB
+0000.282 () Ensuring WP_Filesystem is setup for a restore
+0000.286 () WP_Filesystem is setup and ready for a restore
+0001.094 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0001.112 () Error message: Pastas não-removidas que existiam de um restore anterior foram encontradas (por favor utilize o botão "Deletar Antigos Diretórios" para deletá-las antes de tentar novamente): C:\xampp\htdocs\GrupoWZ/wp-content/updraft/plugins-old
+0001.252 () Restore failed...
+0001.253 () Error message: Pastas não-removidas que existiam de um restore anterior foram encontradas (por favor utilize o botão "Deletar Antigos Diretórios" para deletá-las antes de tentar novamente): C:\xampp\htdocs\GrupoWZ/wp-content/updraft/plugins-old
+0001.253 () Restore failed

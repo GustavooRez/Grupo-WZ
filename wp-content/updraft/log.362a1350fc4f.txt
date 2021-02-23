@@ -1,0 +1,73 @@
+0000.143 () Opened log file at time: Thu, 07 Nov 2019 22:52:21 +0000 on http://localhost/GrupoWZ
+0000.145 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.3.10 (apache2handler, Windows NT DESKTOP-48TEQBF 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: pt_BR Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.4M | 6M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.146 () Free space on disk containing Updraft's temporary directory: 721377 MB
+0000.085 () Opened log file at time: Thu, 07 Nov 2019 22:52:24 +0000 on http://localhost/GrupoWZ
+0000.087 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.3.10 (apache2handler, Windows NT DESKTOP-48TEQBF 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: pt_BR Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 33.9M | 10M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.088 () Free space on disk containing Updraft's temporary directory: 721377 MB
+0000.128 () Ensuring WP_Filesystem is setup for a restore
+0000.134 () WP_Filesystem is setup and ready for a restore
+0000.191 () Restore job started. Entities to restore: uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.223 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.462 () Entity: db
+0000.463 () restore_backup(backup_file=backup_2019-11-06-1620_Grupo_WZ_21c4a6ec5aa8-db.gz, type=db, info=a:0:{}, last_one=)
+0000.464 () Desempacotando o backup... (backup_2019-11-06-1620_Grupo_WZ_21c4a6ec5aa8-db.gz, 0.4 Mb)
+0000.516 () Database successfully unpacked
+0000.518 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.519 () Using direct MySQL access; value of use_mysqli is: 1
+0002.221 () Max packet size: 32 MB
+0002.221 () Entering maintenance mode
+0002.221 () Ativando modo de manutenção&#8230;
+0002.232 () Backup of: http://localhost/GrupoWZ
+0002.233 () Content URL: http://localhost/GrupoWZ/wp-content
+0002.233 () Uploads URL: http://localhost/GrupoWZ/wp-content/uploads
+0002.233 () Old table prefix: wp_
+0002.234 () Site information: multisite=0
+0002.239 () New table prefix: wp_
+0002.521 () Processing table (InnoDB): wp_options
+0003.985 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0005.016 () Processing table (InnoDB): wp_users
+0005.876 () Processing table (InnoDB): wp_usermeta
+0009.635 () Processing table (InnoDB): wp_commentmeta
+0010.064 () Processing table (InnoDB): wp_comments
+0010.685 () Processing table (InnoDB): wp_links
+0011.230 () Processing table (InnoDB): wp_postmeta
+0012.536 () Processing table (InnoDB): wp_posts
+0013.464 () Processing table (InnoDB): wp_term_relationships
+0014.200 () Processing table (InnoDB): wp_term_taxonomy
+0014.703 () Processing table (InnoDB): wp_termmeta
+0015.268 () Processing table (InnoDB): wp_terms
+0016.922 () Processing table (InnoDB): wp_grupowzcommentmeta
+0018.109 () Processing table (InnoDB): wp_grupowzcomments
+0021.707 () Processing table (InnoDB): wp_grupowzlinks
+0023.161 () Processing table (InnoDB): wp_grupowzoptions
+0029.645 () Database queries processed: 50 in 29.12 seconds
+0031.024 () Processing table (InnoDB): wp_grupowzpostmeta
+0031.756 () Processing table (InnoDB): wp_grupowzposts
+0032.363 () Processing table (InnoDB): wp_grupowzterm_relationships
+0033.012 () Processing table (InnoDB): wp_grupowzterm_taxonomy
+0033.606 () Processing table (InnoDB): wp_grupowztermmeta
+0034.061 () Processing table (InnoDB): wp_grupowzterms
+0034.495 () Processing table (InnoDB): wp_grupowzusermeta
+0035.008 () Processing table (InnoDB): wp_grupowzusers
+0035.543 () Unlocking database and leaving maintenance mode
+0035.543 () Desativando modo de manutenção&#8230;
+0035.545 () Finished: lines processed: 77 in 35.02 seconds
+0035.547 () Limpando a sujeira...
+0040.095 () Entity: uploads
+0040.095 () restore_backup(backup_file=backup_2019-11-06-1620_Grupo_WZ_21c4a6ec5aa8-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:42:"C:\xampp\htdocs\GrupoWZ/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0040.096 () Desempacotando o backup... (backup_2019-11-06-1620_Grupo_WZ_21c4a6ec5aa8-uploads.zip, 21.3 MB)
+0040.102 () Unzipping backup_2019-11-06-1620_Grupo_WZ_21c4a6ec5aa8-uploads.zip to C:/xampp/htdocs/GrupoWZ/wp-content/upgrade/aaa60106/ using UpdraftPlus_ZipArchive, starting index 0
+0042.802 () Unzip progress: 87 out of 87 files (21.3 MB, uploads/2019/11/top.png)
+0042.814 () Moving old data: filesystem method / updraft_dir is potentially possible
+0042.815 () Moving old data: can potentially use wp_filesystem method / -old
+0042.815 () Movendo dados antigos para fora do caminho...
+0042.835 () Movendo backup desempacotado para o local...
+0042.859 () Limpando a sujeira...
+0043.277 () Entity: others
+0043.277 () restore_backup(backup_file=backup_2019-11-06-1620_Grupo_WZ_21c4a6ec5aa8-others.zip, type=others, info=a:2:{s:4:"path";s:34:"C:\xampp\htdocs\GrupoWZ/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0043.278 () Desempacotando o backup... (backup_2019-11-06-1620_Grupo_WZ_21c4a6ec5aa8-others.zip, 1.2 MB)
+0043.280 () Unzipping backup_2019-11-06-1620_Grupo_WZ_21c4a6ec5aa8-others.zip to C:/xampp/htdocs/GrupoWZ/wp-content/upgrade/449ac2f7/ using UpdraftPlus_ZipArchive, starting index 0
+0045.643 () Unzip progress: 71 out of 71 files (4.4 MB, languages-old/themes/twentysixteen-pt_BR.po)
+0045.684 () Limpando a sujeira...
+0046.129 () Restore successful!
+0046.129 () Restore successful

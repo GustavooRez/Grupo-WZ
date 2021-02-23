@@ -1,0 +1,503 @@
+0000.001 (0) Opened log file at time: Fri, 24 Apr 2020 16:35:30 +0000 on https://grupowz.com.br
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.3 PHP: 7.1.32 (cgi-fcgi, Windows NT WEB1200 10.0 build 14393 (Windows Server 2016) i586) MySQL: 5.5.43-log WPLANG: pt_BR Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.5M | 4M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 33108.2 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.013 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.015 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2020-04-24 16:35:30
+0000.017 (0) Semaphore (fd, wp_options) reset to 1
+0000.019 (0) Set semaphore last lock (fd) time to 2020-04-24 16:35:30
+0000.020 (0) Semaphore lock (fd) complete
+0000.025 (0) Backup run: resumption=0, nonce=c2c2a776a210, file_nonce=c2c2a776a210 begun at=1587746130 (0s ago), job type=backup
+0000.027 (0) Scheduling a resumption (1) after 300 seconds (1587746430) in case this run gets aborted
+0000.049 (0) Checking if we have a zip executable available
+0000.052 (0) Creation of backups of directories: beginning
+0000.062 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.101 (0) Total entities for the zip file: 372 directories, 2238 files (0 skipped as non-modified), 39 MB
+0002.204 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 65 (65) files added so far); re-opening (prior size: 0 KB)
+0002.225 (0) PHP event: code E_WARNING: ZipArchive::close(): Read error: Bad file descriptor (line 3074, D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus\backup.php)
+0002.227 (0) The attempt to close the zip file returned an error (Unknown: ZipArchive does not return error messages). List of files we were trying to add follows (check their permissions).
+0002.229 (0) File: plugins/.12cd0ae8.ico (exists: 1, is_readable: 1 size: 9620)
+0002.230 (0) File: plugins/advanced-custom-fields/acf.php (exists: 1, is_readable: 1 size: 17854)
+0002.230 (0) File: plugins/advanced-custom-fields/assets/css/acf-dark.css (exists: 1, is_readable: 1 size: 5490)
+0002.230 (0) File: plugins/advanced-custom-fields/assets/css/acf-field-group.css (exists: 1, is_readable: 1 size: 7448)
+0002.230 (0) File: plugins/advanced-custom-fields/assets/css/acf-global.css (exists: 1, is_readable: 1 size: 20359)
+0002.230 (0) File: plugins/advanced-custom-fields/assets/css/acf-input.css (exists: 1, is_readable: 1 size: 71498)
+0002.230 (0) File: plugins/advanced-custom-fields/assets/font/acf.eot (exists: 1, is_readable: 1 size: 8212)
+0002.230 (0) File: plugins/advanced-custom-fields/assets/font/acf.svg (exists: 1, is_readable: 1 size: 5579)
+0002.231 (0) File: plugins/advanced-custom-fields/assets/font/acf.ttf (exists: 1, is_readable: 1 size: 8064)
+0002.231 (0) File: plugins/advanced-custom-fields/assets/font/acf.woff (exists: 1, is_readable: 1 size: 5008)
+0002.231 (0) File: plugins/advanced-custom-fields/assets/font/acf.woff2 (exists: 1, is_readable: 1 size: 4160)
+0002.231 (0) File: plugins/advanced-custom-fields/assets/font/config.json (exists: 1, is_readable: 1 size: 2610)
+0002.231 (0) File: plugins/advanced-custom-fields/assets/font/LICENSE.txt (exists: 1, is_readable: 1 size: 915)
+0002.231 (0) File: plugins/advanced-custom-fields/assets/font/README.txt (exists: 1, is_readable: 1 size: 2876)
+0002.232 (0) File: plugins/advanced-custom-fields/assets/images/acf-logo.png (exists: 1, is_readable: 1 size: 3478)
+0002.232 (0) File: plugins/advanced-custom-fields/assets/images/spinner.gif (exists: 1, is_readable: 1 size: 4777)
+0002.232 (0) File: plugins/advanced-custom-fields/assets/images/spinner@2x.gif (exists: 1, is_readable: 1 size: 8654)
+0002.232 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-bg_highlight-soft_0_ffffff_1x100.png (exists: 1, is_readable: 1 size: 84)
+0002.234 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_444444_256x240.png (exists: 1, is_readable: 1 size: 3771)
+0002.234 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_DDDDDD_256x240.png (exists: 1, is_readable: 1 size: 3771)
+0002.234 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_ffffff_256x240.png (exists: 1, is_readable: 1 size: 3771)
+0002.234 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/jquery-ui.css (exists: 1, is_readable: 1 size: 26444)
+0002.234 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/jquery-ui.min.css (exists: 1, is_readable: 1 size: 23474)
+0002.234 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2-spinner.gif (exists: 1, is_readable: 1 size: 1434)
+0002.234 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2.css (exists: 1, is_readable: 1 size: 19457)
+0002.234 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2.js (exists: 1, is_readable: 1 size: 148536)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2.min.js (exists: 1, is_readable: 1 size: 66596)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2.png (exists: 1, is_readable: 1 size: 525)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2x2.png (exists: 1, is_readable: 1 size: 653)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.css (exists: 1, is_readable: 1 size: 17604)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.full.js (exists: 1, is_readable: 1 size: 161832)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.full.min.js (exists: 1, is_readable: 1 size: 75005)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.js (exists: 1, is_readable: 1 size: 141934)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.min.css (exists: 1, is_readable: 1 size: 15196)
+0002.235 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.min.js (exists: 1, is_readable: 1 size: 66664)
+0002.236 (0) File: plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.css (exists: 1, is_readable: 1 size: 1945)
+0002.236 (0) File: plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.js (exists: 1, is_readable: 1 size: 78620)
+0002.236 (0) File: plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.min.css (exists: 1, is_readable: 1 size: 1901)
+0002.236 (0) File: plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.min.js (exists: 1, is_readable: 1 size: 41134)
+0002.236 (0) File: plugins/advanced-custom-fields/assets/js/acf-field-group.js (exists: 1, is_readable: 1 size: 50737)
+0002.236 (0) File: plugins/advanced-custom-fields/assets/js/acf-field-group.min.js (exists: 1, is_readable: 1 size: 23679)
+0002.237 (0) File: plugins/advanced-custom-fields/assets/js/acf-input.js (exists: 1, is_readable: 1 size: 298300)
+0002.237 (0) File: plugins/advanced-custom-fields/assets/js/acf-input.min.js (exists: 1, is_readable: 1 size: 118583)
+0002.237 (0) File: plugins/advanced-custom-fields/includes/acf-field-functions.php (exists: 1, is_readable: 1 size: 35611)
+0002.237 (0) File: plugins/advanced-custom-fields/includes/acf-field-group-functions.php (exists: 1, is_readable: 1 size: 25954)
+0002.237 (0) File: plugins/advanced-custom-fields/includes/acf-form-functions.php (exists: 1, is_readable: 1 size: 3394)
+0002.237 (0) File: plugins/advanced-custom-fields/includes/acf-helper-functions.php (exists: 1, is_readable: 1 size: 7149)
+0002.237 (0) File: plugins/advanced-custom-fields/includes/acf-hook-functions.php (exists: 1, is_readable: 1 size: 5218)
+0002.237 (0) File: plugins/advanced-custom-fields/includes/acf-input-functions.php (exists: 1, is_readable: 1 size: 9061)
+0002.238 (0) File: plugins/advanced-custom-fields/includes/acf-meta-functions.php (exists: 1, is_readable: 1 size: 10644)
+0002.238 (0) File: plugins/advanced-custom-fields/includes/acf-post-functions.php (exists: 1, is_readable: 1 size: 655)
+0002.238 (0) File: plugins/advanced-custom-fields/includes/acf-user-functions.php (exists: 1, is_readable: 1 size: 2226)
+0002.238 (0) File: plugins/advanced-custom-fields/includes/acf-utility-functions.php (exists: 1, is_readable: 1 size: 3077)
+0002.238 (0) File: plugins/advanced-custom-fields/includes/acf-value-functions.php (exists: 1, is_readable: 1 size: 7914)
+0002.238 (0) File: plugins/advanced-custom-fields/includes/admin/admin-field-group.php (exists: 1, is_readable: 1 size: 16623)
+0002.239 (0) File: plugins/advanced-custom-fields/includes/admin/admin-field-groups.php (exists: 1, is_readable: 1 size: 18351)
+0002.239 (0) File: plugins/advanced-custom-fields/includes/admin/admin-notices.php (exists: 1, is_readable: 1 size: 2838)
+0002.239 (0) File: plugins/advanced-custom-fields/includes/admin/admin-tools.php (exists: 1, is_readable: 1 size: 5083)
+0002.239 (0) File: plugins/advanced-custom-fields/includes/admin/admin-upgrade.php (exists: 1, is_readable: 1 size: 4266)
+0002.239 (0) File: plugins/advanced-custom-fields/includes/admin/admin.php (exists: 1, is_readable: 1 size: 1647)
+0002.239 (0) File: plugins/advanced-custom-fields/includes/admin/settings-info.php (exists: 1, is_readable: 1 size: 1499)
+0002.239 (0) File: plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool-export.php (exists: 1, is_readable: 1 size: 10432)
+0002.239 (0) File: plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool-import.php (exists: 1, is_readable: 1 size: 3430)
+0002.240 (0) File: plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool.php (exists: 1, is_readable: 1 size: 2316)
+0002.240 (0) File: plugins/advanced-custom-fields/includes/admin/views/field-group-field-conditional-logic.php (exists: 1, is_readable: 1 size: 3934)
+0002.711 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.130 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.743 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.199 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.3 MB, 249 (314) files added so far); re-opening (prior size: 0 KB)
+0006.376 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 400 files added (on-disk size: 1674.6 KB)
+0006.432 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 500 files added (on-disk size: 1674.6 KB)
+0006.496 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 600 files added (on-disk size: 1674.6 KB)
+0006.627 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 700 files added (on-disk size: 1674.6 KB)
+0006.703 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 800 files added (on-disk size: 1674.6 KB)
+0006.717 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (19.2 MB, 2238 files batched, 501 (815) added so far); re-opening (prior size: 1674.6 KB)
+0008.499 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 900 files added (on-disk size: 7106.7 KB)
+0008.620 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1000 files added (on-disk size: 7106.7 KB)
+0008.705 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1100 files added (on-disk size: 7106.7 KB)
+0008.787 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1200 files added (on-disk size: 7106.7 KB)
+0008.868 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1300 files added (on-disk size: 7106.7 KB)
+0008.881 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 2238 files batched, 501 (1316) added so far); re-opening (prior size: 7106.7 KB)
+0009.258 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1400 files added (on-disk size: 7813.6 KB)
+0009.342 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1500 files added (on-disk size: 7813.6 KB)
+0009.427 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1600 files added (on-disk size: 7813.6 KB)
+0009.536 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1700 files added (on-disk size: 7813.6 KB)
+0009.685 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1800 files added (on-disk size: 7813.6 KB)
+0009.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 MB, 2238 files batched, 501 (1817) added so far); re-opening (prior size: 7813.6 KB)
+0010.709 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1900 files added (on-disk size: 11559.4 KB)
+0010.865 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 2000 files added (on-disk size: 11559.4 KB)
+0010.948 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 2100 files added (on-disk size: 11559.4 KB)
+0011.024 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 2200 files added (on-disk size: 11559.4 KB)
+0011.510 (0) Error: makezip_addfiles returned false
+0011.511 (0) makezip_addfiles(UpdraftPlus_ZipArchive) apparently failed (file=backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp, type=plugins, size=13303455) - retrying with PclZip
+0011.621 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: Zip file already exists, with 2173 files
+0012.688 (0) Total entities for the zip file: 372 directories, 2238 files (0 skipped as non-modified), 39 MB
+0012.691 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 39937.4 KB, split: 409600 KB)
+0012.727 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 100 files added (on-disk size: 12991.7 KB)
+0012.734 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 200 files added (on-disk size: 12991.7 KB)
+0012.739 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 300 files added (on-disk size: 12991.7 KB)
+0012.744 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 400 files added (on-disk size: 12991.7 KB)
+0012.748 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 500 files added (on-disk size: 12991.7 KB)
+0012.752 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 600 files added (on-disk size: 12991.7 KB)
+0012.756 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 700 files added (on-disk size: 12991.7 KB)
+0012.760 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 800 files added (on-disk size: 12991.7 KB)
+0012.765 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 900 files added (on-disk size: 12991.7 KB)
+0012.769 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1000 files added (on-disk size: 12991.7 KB)
+0012.774 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1100 files added (on-disk size: 12991.7 KB)
+0012.780 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1200 files added (on-disk size: 12991.7 KB)
+0012.784 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1300 files added (on-disk size: 12991.7 KB)
+0012.788 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1400 files added (on-disk size: 12991.7 KB)
+0012.793 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1500 files added (on-disk size: 12991.7 KB)
+0012.797 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1600 files added (on-disk size: 12991.7 KB)
+0012.803 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1700 files added (on-disk size: 12991.7 KB)
+0012.809 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1800 files added (on-disk size: 12991.7 KB)
+0012.815 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 1900 files added (on-disk size: 12991.7 KB)
+0012.821 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 2000 files added (on-disk size: 12991.7 KB)
+0012.827 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 2100 files added (on-disk size: 12991.7 KB)
+0012.833 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip.tmp: 2200 files added (on-disk size: 12991.7 KB)
+0034.700 (0) [Warning] Um erro na compactação (zip) ocorreu - verifique as logs para mais detalhes.
+0034.701 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_READ_OPEN_FAIL (-2) : Unable to open file 'D:/web/localuser/grupowz/www/wp-content/plugins/.12cd0ae8.ico' in binary read mode). List of files we were trying to add follows (check their permissions).
+0034.703 (0) File: plugins/.12cd0ae8.ico (exists: 1, is_readable: 1 size: 9620)
+0034.704 (0) File: plugins/advanced-custom-fields/acf.php (exists: 1, is_readable: 1 size: 17854)
+0034.704 (0) File: plugins/advanced-custom-fields/assets/css/acf-dark.css (exists: 1, is_readable: 1 size: 5490)
+0034.705 (0) File: plugins/advanced-custom-fields/assets/css/acf-field-group.css (exists: 1, is_readable: 1 size: 7448)
+0034.705 (0) File: plugins/advanced-custom-fields/assets/css/acf-global.css (exists: 1, is_readable: 1 size: 20359)
+0034.705 (0) File: plugins/advanced-custom-fields/assets/css/acf-input.css (exists: 1, is_readable: 1 size: 71498)
+0034.706 (0) File: plugins/advanced-custom-fields/assets/font/acf.eot (exists: 1, is_readable: 1 size: 8212)
+0034.706 (0) File: plugins/advanced-custom-fields/assets/font/acf.svg (exists: 1, is_readable: 1 size: 5579)
+0034.706 (0) File: plugins/advanced-custom-fields/assets/font/acf.ttf (exists: 1, is_readable: 1 size: 8064)
+0034.707 (0) File: plugins/advanced-custom-fields/assets/font/acf.woff (exists: 1, is_readable: 1 size: 5008)
+0034.707 (0) File: plugins/advanced-custom-fields/assets/font/acf.woff2 (exists: 1, is_readable: 1 size: 4160)
+0034.707 (0) File: plugins/advanced-custom-fields/assets/font/config.json (exists: 1, is_readable: 1 size: 2610)
+0034.707 (0) File: plugins/advanced-custom-fields/assets/font/LICENSE.txt (exists: 1, is_readable: 1 size: 915)
+0034.707 (0) File: plugins/advanced-custom-fields/assets/font/README.txt (exists: 1, is_readable: 1 size: 2876)
+0034.707 (0) File: plugins/advanced-custom-fields/assets/images/acf-logo.png (exists: 1, is_readable: 1 size: 3478)
+0034.707 (0) File: plugins/advanced-custom-fields/assets/images/spinner.gif (exists: 1, is_readable: 1 size: 4777)
+0034.707 (0) File: plugins/advanced-custom-fields/assets/images/spinner@2x.gif (exists: 1, is_readable: 1 size: 8654)
+0034.709 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-bg_highlight-soft_0_ffffff_1x100.png (exists: 1, is_readable: 1 size: 84)
+0034.709 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_444444_256x240.png (exists: 1, is_readable: 1 size: 3771)
+0034.710 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_DDDDDD_256x240.png (exists: 1, is_readable: 1 size: 3771)
+0034.710 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_ffffff_256x240.png (exists: 1, is_readable: 1 size: 3771)
+0034.710 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/jquery-ui.css (exists: 1, is_readable: 1 size: 26444)
+0034.710 (0) File: plugins/advanced-custom-fields/assets/inc/datepicker/jquery-ui.min.css (exists: 1, is_readable: 1 size: 23474)
+0034.711 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2-spinner.gif (exists: 1, is_readable: 1 size: 1434)
+0034.711 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2.css (exists: 1, is_readable: 1 size: 19457)
+0034.711 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2.js (exists: 1, is_readable: 1 size: 148536)
+0034.712 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2.min.js (exists: 1, is_readable: 1 size: 66596)
+0034.712 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2.png (exists: 1, is_readable: 1 size: 525)
+0034.712 (0) File: plugins/advanced-custom-fields/assets/inc/select2/3/select2x2.png (exists: 1, is_readable: 1 size: 653)
+0034.712 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.css (exists: 1, is_readable: 1 size: 17604)
+0034.713 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.full.js (exists: 1, is_readable: 1 size: 161832)
+0034.713 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.full.min.js (exists: 1, is_readable: 1 size: 75005)
+0034.713 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.js (exists: 1, is_readable: 1 size: 141934)
+0034.713 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.min.css (exists: 1, is_readable: 1 size: 15196)
+0034.714 (0) File: plugins/advanced-custom-fields/assets/inc/select2/4/select2.min.js (exists: 1, is_readable: 1 size: 66664)
+0034.714 (0) File: plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.css (exists: 1, is_readable: 1 size: 1945)
+0034.714 (0) File: plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.js (exists: 1, is_readable: 1 size: 78620)
+0034.715 (0) File: plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.min.css (exists: 1, is_readable: 1 size: 1901)
+0034.715 (0) File: plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.min.js (exists: 1, is_readable: 1 size: 41134)
+0034.715 (0) File: plugins/advanced-custom-fields/assets/js/acf-field-group.js (exists: 1, is_readable: 1 size: 50737)
+0034.715 (0) File: plugins/advanced-custom-fields/assets/js/acf-field-group.min.js (exists: 1, is_readable: 1 size: 23679)
+0034.716 (0) File: plugins/advanced-custom-fields/assets/js/acf-input.js (exists: 1, is_readable: 1 size: 298300)
+0034.716 (0) File: plugins/advanced-custom-fields/assets/js/acf-input.min.js (exists: 1, is_readable: 1 size: 118583)
+0034.716 (0) File: plugins/advanced-custom-fields/includes/acf-field-functions.php (exists: 1, is_readable: 1 size: 35611)
+0034.716 (0) File: plugins/advanced-custom-fields/includes/acf-field-group-functions.php (exists: 1, is_readable: 1 size: 25954)
+0034.717 (0) File: plugins/advanced-custom-fields/includes/acf-form-functions.php (exists: 1, is_readable: 1 size: 3394)
+0034.717 (0) File: plugins/advanced-custom-fields/includes/acf-helper-functions.php (exists: 1, is_readable: 1 size: 7149)
+0034.717 (0) File: plugins/advanced-custom-fields/includes/acf-hook-functions.php (exists: 1, is_readable: 1 size: 5218)
+0034.717 (0) File: plugins/advanced-custom-fields/includes/acf-input-functions.php (exists: 1, is_readable: 1 size: 9061)
+0034.717 (0) File: plugins/advanced-custom-fields/includes/acf-meta-functions.php (exists: 1, is_readable: 1 size: 10644)
+0034.718 (0) File: plugins/advanced-custom-fields/includes/acf-post-functions.php (exists: 1, is_readable: 1 size: 655)
+0034.718 (0) File: plugins/advanced-custom-fields/includes/acf-user-functions.php (exists: 1, is_readable: 1 size: 2226)
+0034.718 (0) File: plugins/advanced-custom-fields/includes/acf-utility-functions.php (exists: 1, is_readable: 1 size: 3077)
+0034.718 (0) File: plugins/advanced-custom-fields/includes/acf-value-functions.php (exists: 1, is_readable: 1 size: 7914)
+0034.719 (0) File: plugins/advanced-custom-fields/includes/admin/admin-field-group.php (exists: 1, is_readable: 1 size: 16623)
+0034.719 (0) File: plugins/advanced-custom-fields/includes/admin/admin-field-groups.php (exists: 1, is_readable: 1 size: 18351)
+0034.719 (0) File: plugins/advanced-custom-fields/includes/admin/admin-notices.php (exists: 1, is_readable: 1 size: 2838)
+0034.719 (0) File: plugins/advanced-custom-fields/includes/admin/admin-tools.php (exists: 1, is_readable: 1 size: 5083)
+0034.720 (0) File: plugins/advanced-custom-fields/includes/admin/admin-upgrade.php (exists: 1, is_readable: 1 size: 4266)
+0034.720 (0) File: plugins/advanced-custom-fields/includes/admin/admin.php (exists: 1, is_readable: 1 size: 1647)
+0034.720 (0) File: plugins/advanced-custom-fields/includes/admin/settings-info.php (exists: 1, is_readable: 1 size: 1499)
+0034.720 (0) File: plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool-export.php (exists: 1, is_readable: 1 size: 10432)
+0034.721 (0) File: plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool-import.php (exists: 1, is_readable: 1 size: 3430)
+0034.721 (0) File: plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool.php (exists: 1, is_readable: 1 size: 2316)
+0034.721 (0) File: plugins/advanced-custom-fields/includes/admin/views/field-group-field-conditional-logic.php (exists: 1, is_readable: 1 size: 3934)
+0034.724 (0) Error: makezip_addfiles returned false
+0034.903 (0) Created plugins zip (0) - 13057.9 KB in 34.8 s (374.8 KB/s) (sha1: f80928b27ada84cf6864b03900e29e6931f4d547, sha256: 6641ae3eb342de6118de98b07fa59996afc99ac88bc9534e5a331fbf6888fdad)
+0034.910 (0) Beginning creation of dump of themes (split every: 400 MB)
+0035.057 (0) Total entities for the zip file: 73 directories, 342 files (0 skipped as non-modified), 17.9 MB
+0037.048 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0037.208 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (13.5 MB, 106 (106) files added so far); re-opening (prior size: 0 KB)
+0039.142 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-themes.zip.tmp: 200 files added (on-disk size: 12538.6 KB)
+0040.218 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 128 (234) files added so far); re-opening (prior size: 12538.6 KB)
+0041.970 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-themes.zip.tmp: 300 files added (on-disk size: 13810.6 KB)
+0043.378 (0) Created themes zip (0) - 15244.5 KB in 8.5 s (1801.1 KB/s) (sha1: 4439c1825671369e43db6b4717458c0ceac33bea, sha256: 30628df626d15e7b2d097a9cabc2869e14e2a7268b16b3a7927143f473236da7)
+0043.384 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0043.386 (0) Looking for candidates to backup in: D:\web\localuser\grupowz\www/wp-content/uploads
+0043.388 (0) finding files: 2019: adding to list (1)
+0043.389 (0) finding files: 2020: adding to list (2)
+0043.390 (0) finding files: wp-less: adding to list (3)
+0043.392 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0043.430 (0) Total entities for the zip file: 12 directories, 130 files (0 skipped as non-modified), 29 MB
+0043.755 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.4 MB, 130 files batched, 94 (94) added so far); re-opening (prior size: 0 KB)
+0043.987 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 33681.8 KB/s)
+0043.990 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.8018970489502, normalised_time=0.76005436632681, max_time=43.987797021866, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0044.012 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-uploads.zip.tmp: 100 files added (on-disk size: 27012.2 KB)
+0044.460 (0) PHP event: code E_WARNING: ZipArchive::close(): Read error: Bad file descriptor (line 3271, D:\web\localuser\grupowz\www\wp-content\plugins\updraftplus\backup.php)
+0044.462 (0) The attempt to close the zip file returned an error (Unknown: ZipArchive does not return error messages). List of files we were trying to add follows (check their permissions).
+0044.464 (0) File: uploads/2019/11/top-150x150.png (exists: 1, is_readable: 1 size: 44176)
+0044.464 (0) File: uploads/2019/11/top-300x208.png (exists: 1, is_readable: 1 size: 109254)
+0044.464 (0) File: uploads/2019/11/top.png (exists: 1, is_readable: 1 size: 331338)
+0044.464 (0) File: uploads/2019/12/cliente4.png (exists: 1, is_readable: 1 size: 8281)
+0044.465 (0) File: uploads/2019/12/cliente7-1024x1024.png (exists: 1, is_readable: 1 size: 47834)
+0044.465 (0) File: uploads/2019/12/cliente7-150x150.png (exists: 1, is_readable: 1 size: 4872)
+0044.465 (0) File: uploads/2019/12/cliente7-1536x1536.png (exists: 1, is_readable: 1 size: 79075)
+0044.465 (0) File: uploads/2019/12/cliente7-2048x2048.png (exists: 1, is_readable: 1 size: 113391)
+0044.465 (0) File: uploads/2019/12/cliente7-300x300.png (exists: 1, is_readable: 1 size: 11040)
+0044.465 (0) File: uploads/2019/12/cliente7-768x768.png (exists: 1, is_readable: 1 size: 33189)
+0044.465 (0) File: uploads/2019/12/cliente7-scaled.png (exists: 1, is_readable: 1 size: 151191)
+0044.466 (0) File: uploads/2019/12/cliente7.png (exists: 1, is_readable: 1 size: 252937)
+0044.466 (0) File: uploads/2020/01/index.php (exists: 1, is_readable: 1 size: 24567)
+0044.466 (0) File: uploads/2020/03/Comunicado2-150x150.jpg (exists: 1, is_readable: 1 size: 3848)
+0044.466 (0) File: uploads/2020/03/Comunicado2-300x225.jpg (exists: 1, is_readable: 1 size: 6789)
+0044.466 (0) File: uploads/2020/03/Comunicado2-768x576.jpg (exists: 1, is_readable: 1 size: 22224)
+0044.466 (0) File: uploads/2020/03/Comunicado2.jpg (exists: 1, is_readable: 1 size: 46597)
+0044.466 (0) File: uploads/2020/03/Postagem-150x150.jpg (exists: 1, is_readable: 1 size: 7924)
+0044.466 (0) File: uploads/2020/03/Postagem-300x225.jpg (exists: 1, is_readable: 1 size: 21201)
+0044.466 (0) File: uploads/2020/03/Postagem-768x576.jpg (exists: 1, is_readable: 1 size: 117571)
+0044.466 (0) File: uploads/2020/03/Postagem.jpg (exists: 1, is_readable: 1 size: 253528)
+0044.467 (0) File: uploads/2020/03/Radar-1024x497.jpg (exists: 1, is_readable: 1 size: 50480)
+0044.467 (0) File: uploads/2020/03/Radar-150x150.jpg (exists: 1, is_readable: 1 size: 5534)
+0044.467 (0) File: uploads/2020/03/Radar-300x146.jpg (exists: 1, is_readable: 1 size: 8637)
+0044.467 (0) File: uploads/2020/03/Radar-768x373.jpg (exists: 1, is_readable: 1 size: 33252)
+0044.467 (0) File: uploads/2020/03/Radar.jpg (exists: 1, is_readable: 1 size: 106230)
+0044.467 (0) File: uploads/2020/04/Civil-150x150.jpg (exists: 1, is_readable: 1 size: 6743)
+0044.467 (0) File: uploads/2020/04/Civil-300x225.jpg (exists: 1, is_readable: 1 size: 16541)
+0044.467 (0) File: uploads/2020/04/Civil-768x576.jpg (exists: 1, is_readable: 1 size: 66962)
+0044.467 (0) File: uploads/2020/04/Civil.jpg (exists: 1, is_readable: 1 size: 132990)
+0044.467 (0) File: uploads/2020/04/imagem7-150x113.jpg (exists: 1, is_readable: 1 size: 18667)
+0044.467 (0) File: uploads/2020/04/imagem7-150x150.jpg (exists: 1, is_readable: 1 size: 23956)
+0044.468 (0) File: uploads/2020/04/imagem7-300x225.jpg (exists: 1, is_readable: 1 size: 62099)
+0044.468 (0) File: uploads/2020/04/imagem7-768x576.jpg (exists: 1, is_readable: 1 size: 290964)
+0044.468 (0) File: uploads/2020/04/imagem7.jpg (exists: 1, is_readable: 1 size: 179852)
+0044.468 (0) File: uploads/wp-less/dt-the7/css/wp-blockk.php (exists: 1, is_readable: 1 size: 15039)
+0044.468 (0) Error: makezip_addfiles returned false
+0044.469 (0) makezip_addfiles(UpdraftPlus_ZipArchive) apparently failed (file=backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-uploads.zip.tmp, type=uploads, size=27660444) - retrying with PclZip
+0044.476 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-uploads.zip.tmp: Zip file already exists, with 94 files
+0044.490 (0) Total entities for the zip file: 12 directories, 130 files (0 skipped as non-modified), 29 MB
+0044.491 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 29654.6 KB, split: 409600 KB)
+0044.499 (0) Zip: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-uploads.zip.tmp: 100 files added (on-disk size: 27012.2 KB)
+0046.329 (0) [Warning] Um erro na compactação (zip) ocorreu - verifique as logs para mais detalhes.
+0046.330 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_READ_OPEN_FAIL (-2) : Unable to open file 'D:/web/localuser/grupowz/www/wp-content/uploads/wp-less/dt-the7/css/wp-blockk.php' in binary read mode). List of files we were trying to add follows (check their permissions).
+0046.338 (0) File: uploads/2019/11/top-150x150.png (exists: 1, is_readable: 1 size: 44176)
+0046.339 (0) File: uploads/2019/11/top-300x208.png (exists: 1, is_readable: 1 size: 109254)
+0046.339 (0) File: uploads/2019/11/top.png (exists: 1, is_readable: 1 size: 331338)
+0046.339 (0) File: uploads/2019/12/cliente4.png (exists: 1, is_readable: 1 size: 8281)
+0046.340 (0) File: uploads/2019/12/cliente7-1024x1024.png (exists: 1, is_readable: 1 size: 47834)
+0046.340 (0) File: uploads/2019/12/cliente7-150x150.png (exists: 1, is_readable: 1 size: 4872)
+0046.340 (0) File: uploads/2019/12/cliente7-1536x1536.png (exists: 1, is_readable: 1 size: 79075)
+0046.340 (0) File: uploads/2019/12/cliente7-2048x2048.png (exists: 1, is_readable: 1 size: 113391)
+0046.341 (0) File: uploads/2019/12/cliente7-300x300.png (exists: 1, is_readable: 1 size: 11040)
+0046.341 (0) File: uploads/2019/12/cliente7-768x768.png (exists: 1, is_readable: 1 size: 33189)
+0046.341 (0) File: uploads/2019/12/cliente7-scaled.png (exists: 1, is_readable: 1 size: 151191)
+0046.341 (0) File: uploads/2019/12/cliente7.png (exists: 1, is_readable: 1 size: 252937)
+0046.341 (0) File: uploads/2020/01/index.php (exists: 1, is_readable: 1 size: 24567)
+0046.342 (0) File: uploads/2020/03/Comunicado2-150x150.jpg (exists: 1, is_readable: 1 size: 3848)
+0046.342 (0) File: uploads/2020/03/Comunicado2-300x225.jpg (exists: 1, is_readable: 1 size: 6789)
+0046.342 (0) File: uploads/2020/03/Comunicado2-768x576.jpg (exists: 1, is_readable: 1 size: 22224)
+0046.342 (0) File: uploads/2020/03/Comunicado2.jpg (exists: 1, is_readable: 1 size: 46597)
+0046.342 (0) File: uploads/2020/03/Postagem-150x150.jpg (exists: 1, is_readable: 1 size: 7924)
+0046.342 (0) File: uploads/2020/03/Postagem-300x225.jpg (exists: 1, is_readable: 1 size: 21201)
+0046.343 (0) File: uploads/2020/03/Postagem-768x576.jpg (exists: 1, is_readable: 1 size: 117571)
+0046.343 (0) File: uploads/2020/03/Postagem.jpg (exists: 1, is_readable: 1 size: 253528)
+0046.343 (0) File: uploads/2020/03/Radar-1024x497.jpg (exists: 1, is_readable: 1 size: 50480)
+0046.343 (0) File: uploads/2020/03/Radar-150x150.jpg (exists: 1, is_readable: 1 size: 5534)
+0046.343 (0) File: uploads/2020/03/Radar-300x146.jpg (exists: 1, is_readable: 1 size: 8637)
+0046.343 (0) File: uploads/2020/03/Radar-768x373.jpg (exists: 1, is_readable: 1 size: 33252)
+0046.344 (0) File: uploads/2020/03/Radar.jpg (exists: 1, is_readable: 1 size: 106230)
+0046.344 (0) File: uploads/2020/04/Civil-150x150.jpg (exists: 1, is_readable: 1 size: 6743)
+0046.344 (0) File: uploads/2020/04/Civil-300x225.jpg (exists: 1, is_readable: 1 size: 16541)
+0046.344 (0) File: uploads/2020/04/Civil-768x576.jpg (exists: 1, is_readable: 1 size: 66962)
+0046.344 (0) File: uploads/2020/04/Civil.jpg (exists: 1, is_readable: 1 size: 132990)
+0046.344 (0) File: uploads/2020/04/imagem7-150x113.jpg (exists: 1, is_readable: 1 size: 18667)
+0046.345 (0) File: uploads/2020/04/imagem7-150x150.jpg (exists: 1, is_readable: 1 size: 23956)
+0046.346 (0) File: uploads/2020/04/imagem7-300x225.jpg (exists: 1, is_readable: 1 size: 62099)
+0046.346 (0) File: uploads/2020/04/imagem7-768x576.jpg (exists: 1, is_readable: 1 size: 290964)
+0046.346 (0) File: uploads/2020/04/imagem7.jpg (exists: 1, is_readable: 1 size: 179852)
+0046.347 (0) File: uploads/wp-less/dt-the7/css/wp-blockk.php (exists: 1, is_readable: 1 size: 15039)
+0046.349 (0) Error: makezip_addfiles returned false
+0046.660 (0) Created uploads zip (0) - 29517.8 KB in 3.3 s (9040.5 KB/s) (sha1: bf4f041e0e556e176b5fc6714a176341542aaee6, sha256: bab5596a93aa8348d12bec5db8f1b59422da2659c70b75f0f7f8f96a65afdb08)
+0046.665 (0) Beginning backup of other directories found in the content directory (index: 0)
+0046.667 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0046.668 (0) Looking for candidates to backup in: D:\web\localuser\grupowz\www/wp-content
+0046.670 (0) finding files: .htaccess: adding to list (1)
+0046.671 (0) finding files: index.php: adding to list (2)
+0046.672 (0) finding files: languages: adding to list (3)
+0046.674 (0) finding files: plugins: skipping: this is the plugins directory
+0046.675 (0) finding files: themes: skipping: this is the themes directory
+0046.677 (0) finding files: updraft: skipping: this is the updraft directory
+0046.678 (0) finding files: upgrade: skipping: excluded by options
+0046.679 (0) finding files: uploads: skipping: this is the uploads directory
+0046.681 (0) finding files: web.config: adding to list (4)
+0046.696 (0) Total entities for the zip file: 3 directories, 43 files (0 skipped as non-modified), 2.7 MB
+0047.160 (0) Created others zip (0) - 805.5 KB in 0.5 s (1691.8 KB/s) (sha1: 1a8dd6a277cec5bfcd855f19246fa9fc5f5bd170, sha256: e1163d53cfa46cf268586b90b2bed4fa7b312f80466a67e64792fd43cbb1acb2)
+0047.169 (0) Saving backup status to database (elements: 8)
+0047.173 (0) Beginning creation of database dump (WordPress DB)
+0047.206 (0) Table wp_options: Total expected rows (approximate): 311
+0047.279 (0) Table wp_options: Total rows added: 290 in 0.07 seconds
+0047.289 (0) Table wp_options: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_options.table.gz - 199.4 KB)
+0047.303 (0) Table wp_users: Total expected rows (approximate): 2
+0047.318 (0) Table wp_users: Total rows added: 2 in 0.01 seconds
+0047.328 (0) Table wp_users: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_users.table.gz - 0.6 KB)
+0047.344 (0) Table wp_usermeta: Total expected rows (approximate): 51
+0047.363 (0) Table wp_usermeta: Total rows added: 51 in 0.02 seconds
+0047.377 (0) Table wp_usermeta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_usermeta.table.gz - 1.6 KB)
+0047.389 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 1
+0047.407 (0) Table wp_actionscheduler_actions: Total rows added: 1 in 0.02 seconds
+0047.416 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_actionscheduler_actions.table.gz - 0.7 KB)
+0047.426 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0047.440 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.01 seconds
+0047.452 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0047.463 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 1
+0047.479 (0) Table wp_actionscheduler_groups: Total rows added: 1 in 0.01 seconds
+0047.490 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0047.503 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 1
+0047.518 (0) Table wp_actionscheduler_logs: Total rows added: 1 in 0.01 seconds
+0047.529 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_actionscheduler_logs.table.gz - 0.4 KB)
+0047.550 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0047.564 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0047.575 (0) Table wp_commentmeta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0047.588 (0) Table wp_comments: Total expected rows (approximate): 1
+0047.606 (0) Table wp_comments: Total rows added: 1 in 0.02 seconds
+0047.618 (0) Table wp_comments: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_comments.table.gz - 0.7 KB)
+0047.632 (0) Table wp_links: Total expected rows (approximate): 0
+0047.648 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0047.657 (0) Table wp_links: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_links.table.gz - 0.4 KB)
+0047.672 (0) Table wp_postmeta: Total expected rows (approximate): 4715
+0047.821 (0) Table wp_postmeta: Total rows added: 5848 in 0.15 seconds
+0047.834 (0) Table wp_postmeta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_postmeta.table.gz - 50.2 KB)
+0047.850 (0) Table wp_posts: Total expected rows (approximate): 184
+0047.901 (0) Table wp_posts: Total rows added: 371 in 0.05 seconds
+0047.912 (0) Table wp_posts: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_posts.table.gz - 28.2 KB)
+0047.925 (0) Table wp_term_relationships: Total expected rows (approximate): 46
+0047.943 (0) Table wp_term_relationships: Total rows added: 46 in 0.02 seconds
+0047.954 (0) Table wp_term_relationships: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0047.966 (0) Table wp_term_taxonomy: Total expected rows (approximate): 11
+0047.983 (0) Table wp_term_taxonomy: Total rows added: 11 in 0.02 seconds
+0047.995 (0) Table wp_term_taxonomy: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0048.014 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0048.031 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0048.053 (0) Table wp_termmeta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_termmeta.table.gz - 0.4 KB)
+0048.067 (0) Table wp_terms: Total expected rows (approximate): 11
+0048.085 (0) Table wp_terms: Total rows added: 11 in 0.02 seconds
+0048.095 (0) Table wp_terms: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_terms.table.gz - 0.5 KB)
+0048.111 (0) Table wp_grupowzcommentmeta: Total expected rows (approximate): 0
+0048.127 (0) Table wp_grupowzcommentmeta: Total rows added: 0 in 0.01 seconds
+0048.136 (0) Table wp_grupowzcommentmeta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzcommentmeta.table.gz - 0.4 KB)
+0048.152 (0) Table wp_grupowzcomments: Total expected rows (approximate): 1
+0048.173 (0) Table wp_grupowzcomments: Total rows added: 1 in 0.02 seconds
+0048.183 (0) Table wp_grupowzcomments: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzcomments.table.gz - 0.7 KB)
+0048.198 (0) Table wp_grupowzlinks: Total expected rows (approximate): 0
+0048.213 (0) Table wp_grupowzlinks: Total rows added: 0 in 0.01 seconds
+0048.226 (0) Table wp_grupowzlinks: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzlinks.table.gz - 0.4 KB)
+0048.244 (0) Table wp_grupowzoptions: Total expected rows (approximate): 479
+0048.316 (0) Table wp_grupowzoptions: Total rows added: 174 in 0.07 seconds
+0048.325 (0) Table wp_grupowzoptions: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzoptions.table.gz - 168.1 KB)
+0048.340 (0) Table wp_grupowzpostmeta: Total expected rows (approximate): 17
+0048.366 (0) Table wp_grupowzpostmeta: Total rows added: 17 in 0.02 seconds
+0048.378 (0) Table wp_grupowzpostmeta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzpostmeta.table.gz - 0.6 KB)
+0048.397 (0) Table wp_grupowzposts: Total expected rows (approximate): 11
+0048.427 (0) Table wp_grupowzposts: Total rows added: 14 in 0.03 seconds
+0048.437 (0) Table wp_grupowzposts: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzposts.table.gz - 3.7 KB)
+0048.453 (0) Table wp_grupowzterm_relationships: Total expected rows (approximate): 1
+0048.479 (0) Table wp_grupowzterm_relationships: Total rows added: 1 in 0.02 seconds
+0048.491 (0) Table wp_grupowzterm_relationships: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzterm_relationships.table.gz - 0.4 KB)
+0048.509 (0) Table wp_grupowzterm_taxonomy: Total expected rows (approximate): 1
+0048.533 (0) Table wp_grupowzterm_taxonomy: Total rows added: 1 in 0.02 seconds
+0048.541 (0) Table wp_grupowzterm_taxonomy: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzterm_taxonomy.table.gz - 0.4 KB)
+0048.557 (0) Table wp_grupowztermmeta: Total expected rows (approximate): 0
+0048.573 (0) Table wp_grupowztermmeta: Total rows added: 0 in 0.01 seconds
+0048.583 (0) Table wp_grupowztermmeta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowztermmeta.table.gz - 0.4 KB)
+0048.598 (0) Table wp_grupowzterms: Total expected rows (approximate): 1
+0048.616 (0) Table wp_grupowzterms: Total rows added: 1 in 0.02 seconds
+0048.628 (0) Table wp_grupowzterms: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzterms.table.gz - 0.4 KB)
+0048.644 (0) Table wp_grupowzusermeta: Total expected rows (approximate): 17
+0048.662 (0) Table wp_grupowzusermeta: Total rows added: 17 in 0.02 seconds
+0048.674 (0) Table wp_grupowzusermeta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzusermeta.table.gz - 1 KB)
+0048.692 (0) Table wp_grupowzusers: Total expected rows (approximate): 1
+0048.708 (0) Table wp_grupowzusers: Total rows added: 1 in 0.01 seconds
+0048.717 (0) Table wp_grupowzusers: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzusers.table.gz - 0.6 KB)
+0048.728 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 0
+0048.743 (0) Table wp_wpforms_tasks_meta: Total rows added: 0 in 0.01 seconds
+0048.751 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpforms_tasks_meta.table.gz - 0.3 KB)
+0048.767 (0) Table wp_wpgmza: Total expected rows (approximate): 0
+0048.781 (0) Table wp_wpgmza: Total rows added: 0 in 0.01 seconds
+0048.792 (0) Table wp_wpgmza: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza.table.gz - 0.4 KB)
+0048.807 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0048.821 (0) Table wp_wpgmza_circles: Total rows added: 0 in 0.01 seconds
+0048.831 (0) Table wp_wpgmza_circles: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_circles.table.gz - 0.3 KB)
+0048.845 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0048.863 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.02 seconds
+0048.874 (0) Table wp_wpgmza_maps: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_maps.table.gz - 1.2 KB)
+0048.887 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0048.902 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.01 seconds
+0048.912 (0) Table wp_wpgmza_polygon: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_polygon.table.gz - 0.4 KB)
+0048.926 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0048.952 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.02 seconds
+0048.962 (0) Table wp_wpgmza_polylines: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_polylines.table.gz - 0.3 KB)
+0048.977 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0048.992 (0) Table wp_wpgmza_rectangles: Total rows added: 0 in 0.01 seconds
+0049.002 (0) Table wp_wpgmza_rectangles: finishing file (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_rectangles.table.gz - 0.3 KB)
+0049.008 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_options.table.gz (1/35): adding to final database dump
+0049.049 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_users.table.gz (2/35): adding to final database dump
+0049.051 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_usermeta.table.gz (3/35): adding to final database dump
+0049.053 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_actionscheduler_actions.table.gz (4/35): adding to final database dump
+0049.055 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_actionscheduler_claims.table.gz (5/35): adding to final database dump
+0049.057 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_actionscheduler_groups.table.gz (6/35): adding to final database dump
+0049.058 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_actionscheduler_logs.table.gz (7/35): adding to final database dump
+0049.060 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_commentmeta.table.gz (8/35): adding to final database dump
+0049.061 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_comments.table.gz (9/35): adding to final database dump
+0049.062 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_links.table.gz (10/35): adding to final database dump
+0049.064 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_postmeta.table.gz (11/35): adding to final database dump
+0049.080 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_posts.table.gz (12/35): adding to final database dump
+0049.092 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_term_relationships.table.gz (13/35): adding to final database dump
+0049.094 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_term_taxonomy.table.gz (14/35): adding to final database dump
+0049.096 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_termmeta.table.gz (15/35): adding to final database dump
+0049.098 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_terms.table.gz (16/35): adding to final database dump
+0049.100 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzcommentmeta.table.gz (17/35): adding to final database dump
+0049.102 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzcomments.table.gz (18/35): adding to final database dump
+0049.104 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzlinks.table.gz (19/35): adding to final database dump
+0049.106 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzoptions.table.gz (20/35): adding to final database dump
+0049.142 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzpostmeta.table.gz (21/35): adding to final database dump
+0049.144 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzposts.table.gz (22/35): adding to final database dump
+0049.147 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzterm_relationships.table.gz (23/35): adding to final database dump
+0049.148 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzterm_taxonomy.table.gz (24/35): adding to final database dump
+0049.150 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowztermmeta.table.gz (25/35): adding to final database dump
+0049.151 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzterms.table.gz (26/35): adding to final database dump
+0049.153 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzusermeta.table.gz (27/35): adding to final database dump
+0049.154 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_grupowzusers.table.gz (28/35): adding to final database dump
+0049.157 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpforms_tasks_meta.table.gz (29/35): adding to final database dump
+0049.159 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza.table.gz (30/35): adding to final database dump
+0049.161 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_circles.table.gz (31/35): adding to final database dump
+0049.162 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_maps.table.gz (32/35): adding to final database dump
+0049.164 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_polygon.table.gz (33/35): adding to final database dump
+0049.166 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_polylines.table.gz (34/35): adding to final database dump
+0049.167 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db-table-wp_wpgmza_rectangles.table.gz (35/35): adding to final database dump
+0049.179 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db.gz: finished writing out complete database file (432 KB)
+0049.217 (0) Total database tables backed up: 35 (backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db.gz, size: 468013, sha1: f80f6a095100e66d0e51a08581ebabb78d51a2ee, sha256: e91bad70d563c88f43a1e0c13f7527c9406193aa93eb58f643b575318915754c)
+0049.230 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0049.231 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0049.233 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0049.234 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-others.zip: others: This file has not yet been successfully uploaded: will queue
+0049.236 (0) backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db.gz: db: This file has not yet been successfully uploaded: will queue
+0049.237 (0) Saving backup history. Total backup size: 57.7 MB
+0049.242 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0049.247 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0049.248 (0) No remote despatch: user chose no remote backup service
+0049.249 (0) Recording as successfully uploaded: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-plugins.zip
+0049.253 (0) Recording as successfully uploaded: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-themes.zip
+0049.257 (0) Recording as successfully uploaded: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-uploads.zip
+0049.260 (0) Recording as successfully uploaded: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-others.zip
+0049.265 (0) Recording as successfully uploaded: backup_2020-04-24-1335_Grupo_WZ_c2c2a776a210-db.gz
+0049.272 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0049.275 (0) Number of backup sets in history: 2; groups (db): 1
+0049.276 (0) Examining (for databases) backup set with group_id=0, nonce=c2c2a776a210, datestamp=1587746130 (Apr 24 2020 16:35:30)
+0049.278 (0) This backup set is the backup set just made, so will not be deleted.
+0049.278 (0) Examining (for databases) backup set with group_id=0, nonce=701a69ef7237, datestamp=1574347080 (Nov 21 2019 14:38:00)
+0049.278 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0049.279 (0) Number of backup sets in history: 2; groups (files): 1
+0049.280 (0) Examining (for files) backup set with nonce=c2c2a776a210, datestamp=1587746130 (Apr 24 2020 16:35:30)
+0049.280 (0) This backup set is the backup set just made, so will not be deleted.
+0049.282 (0) This backup set is the backup set just made, so will not be deleted.
+0049.282 (0) This backup set is the backup set just made, so will not be deleted.
+0049.282 (0) This backup set is the backup set just made, so will not be deleted.
+0049.283 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0049.284 (0) Examining (for files) backup set with nonce=701a69ef7237, datestamp=1574347080 (Nov 21 2019 14:38:00)
+0049.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0049.284 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0049.289 (0) Resume backup (c2c2a776a210, 0): finish run
+0049.293 (0) Decremented the semaphore (fd) by 1
+0049.296 (0) Semaphore (fd) unlocked
+0049.297 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0049.302 (0) The backup apparently succeeded (with warnings) and is now complete
+0049.303 (0) No email will/can be sent - the user has not configured an email address.
+0049.305 (0) O backup aparentemente foi bem sucedido (com avisos) e agora está completo

@@ -1,0 +1,13 @@
+0000.010 () Opened log file at time: Fri, 22 Nov 2019 01:25:23 +0000 on http://grupowz.com.br
+0000.011 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.1.32 (cgi-fcgi, Windows NT WEB1200 10.0 build 14393 (Windows Server 2016) i586) MySQL: 5.5.43-log WPLANG: pt_BR Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 20.7M | 2M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 () Free space on disk containing Updraft's temporary directory: 58218.4 MB
+0000.009 () Opened log file at time: Fri, 22 Nov 2019 01:25:24 +0000 on http://grupowz.com.br
+0000.010 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.1.32 (cgi-fcgi, Windows NT WEB1200 10.0 build 14393 (Windows Server 2016) i586) MySQL: 5.5.43-log WPLANG: pt_BR Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.2M | 2M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.010 () Free space on disk containing Updraft's temporary directory: 58218.4 MB
+0000.015 () Ensuring WP_Filesystem is setup for a restore
+0000.016 () WP_Filesystem is setup and ready for a restore
+0000.042 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.046 () Error message: Pastas não-removidas que existiam de um restore anterior foram encontradas (por favor utilize o botão "Deletar Antigos Diretórios" para deletá-las antes de tentar novamente): D:\web\localuser\grupowz\www/wp-content/updraft/plugins-old
+0000.047 () Restore failed...
+0000.047 () Error message: Pastas não-removidas que existiam de um restore anterior foram encontradas (por favor utilize o botão "Deletar Antigos Diretórios" para deletá-las antes de tentar novamente): D:\web\localuser\grupowz\www/wp-content/updraft/plugins-old
+0000.047 () Restore failed

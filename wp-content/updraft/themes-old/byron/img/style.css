@@ -1,0 +1,2335 @@
+/* 
+Theme Name: Grupo WZ
+Author:byron solutions
+License URI:byronsolutions.com
+2019
+*/ 
+
+
+html{
+    font-family: 'Dosis', sans-serif; 
+}
+
+/* DESENVOLVIDO POR BYRON SOLUTIONS*/ 
+
+@font-face {
+    font-family: Hillgates;
+    src: url(fonts/hillgates-webfont.woff);
+}
+
+.active{
+    background-color: #6d9bcf;
+}
+
+
+.slick-next{
+    display: none!important;    
+}
+
+.nav_white{
+    background-color: white!important;
+}
+
+.sidenav li, 
+nav li {
+    text-transform: uppercase;
+    color: black!important;
+}
+
+.logo {
+    height: 100%;
+    margin-left: 15px;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.nav_white ul a{
+ color: #024896!important;
+ transition: .1s;
+}
+
+.nav_black{
+    background-color: white!important;
+}
+
+.nav_black ul a{
+    color: black!important;
+    transition: .1s;
+}
+
+nav .sidenav-trigger i{
+    color: black;
+}
+
+.logo_blue img{
+    filter: invert(0);
+    transition: .1s;
+}
+
+.logo-black img {
+ filter: grayscale(100%);
+ transition: all 1s ease-in-out;
+}
+
+.slick-initialized .slick-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagem_header img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+@media screen and (min-width: 600px){
+    .logo {
+        margin-left: 30px;
+    }
+    nav .sidenav-trigger {
+        margin: 0 20px!important;   
+    }
+    nav .sidenav-trigger i{
+        font-size: 30px!important;
+    }
+    .logo img {
+        height: 50%;
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 374px){
+    .brand-logo {
+        padding-top: 2%!important;
+        width: 50%;
+    }
+
+    .logo{
+        height: 90%;
+        padding-top: 1%;
+        margin-left: 0px;
+    }
+}
+
+
+@media only screen and (min-width: 375px)  and (max-width: 425px){
+    .brand-logo {
+        padding-top: 2%!important;
+        width: 50%;
+    }
+
+    .logo{
+        height: 90%;
+        padding-top: 1%;
+        padding-left: 18%;
+        margin-left: 15px;
+    }
+}
+
+
+.direita_footer a{
+    color: white!important;
+}
+.footer-copyright {
+    background-color: #024896!important;
+    padding: 0!important;
+    color: white!important;
+}
+
+.footer-copyright .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.footer-copyright .container p {
+    font-size: 1.3rem;
+    margin: 0;
+    text-align: center;
+    align-self: center;
+} 
+
+.footer-copyright .container a {
+    height: 30px;
+}
+.footer-copyright .container img {
+    max-width: 100%;
+    max-height: 100%!important;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .footer-copyright .container {
+        grid-template-columns: auto auto;
+        padding-bottom: 10px;
+    }
+
+    .footer-copyright .container p {
+        text-align: right;
+    }
+
+    .footer-copyright .container img {
+        float: left;
+    }
+    
+}
+
+
+/* FOOTER */
+
+.page-footer {
+  padding-top: 20px;
+  color: #fff;
+  background-color: #0A73B6!important;
+  width: 100%;
+  position: relative;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0%;
+    font-family: 'Dosis', sans-serif; 
+	padding-bottom: 25px;
+
+}
+
+.esquerda_footer{
+    padding-left: 15%;
+}
+
+.direita_footer{
+    padding-left: 60%;
+}
+
+.fale-conosco{
+    font-size: 32px;
+    padding-top: 1%;
+}
+
+.fab{
+    padding-right: 3%!important;
+    font-size: 20px!important;
+}
+.fas{
+    padding-right: 3%!important;
+    font-size: 20px!important;
+}
+
+.contato_footer{
+    font-size: 17px;
+    padding-top: 1%;
+}
+.telefone2{
+    font-size: 17px;
+    padding-top: 1%;
+    padding-left: 6.4%;
+}
+
+.redes_sociais{
+    padding-right: 5%;
+}
+
+.logo_footer{
+    padding-top: 5%;
+}
+
+.icon{
+    padding-top: 25%;
+    padding-left: 3.5%;
+    font-size: 30px!important;
+}
+
+
+
+@media only screen and (max-width: 320px){
+    .logo_footer{
+        padding-top: 5%;
+        padding-left: 32%!important;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+    .footer{
+        grid-template-columns:1fr;
+    }
+
+    .esquerda_footer{
+        padding-left: 0%;
+    }
+
+    .direita_footer{
+        padding-left: 0%;
+    }
+
+    .fale-conosco{
+        font-size: 32px;
+        padding: 0 2rem;
+    }
+
+    .contato_footer{
+        font-size: 17px;
+        padding: 0 2rem;
+    }
+
+    .telefone2{
+        text-align: center;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+
+    .logo_footer{
+        padding-top: 5%;
+        padding-left: 35%;
+    }
+
+    .icon{
+        padding-top: 8%;
+        padding-left: 20%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width 426px) and (max-width 768px){
+
+
+}
+
+/* PAGINA SERVIÇOS */ 
+.servicos_titulo{
+    text-align: center;
+    margin: 0;
+    font-size: 4rem;
+    padding-top: 13%;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: 'Dosis', sans-serif; 
+	text-transform: uppercase;
+}
+
+
+.flex_servicos{
+    display: flex;
+    align-items: center;
+    font-family: 'Dosis', sans-serif; 
+    color: #0A73B6;
+}
+
+.services_body{
+	padding-bottom: 6rem;
+}
+.services_body section:nth-child(even) > .flex_servicos{
+    flex-direction: row-reverse;
+}
+
+.flex_servicos_image{
+    width: 50%;
+}
+
+.flex_servicos_description{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.imagem_servicos{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.titulo_servicos{
+    text-align: center;
+    font-family: 'Dosis', sans-serif; 
+    font-size: 47px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    color: #0A73B6;
+    padding: 0.3rem;
+}
+.titulo_servicos h3{
+	font-size: 1.8rem;
+}
+.sobreimagem1{
+    padding-bottom: 4%;
+}
+
+.servicos_texto1{
+    padding-left: 16%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    font-size: 1.2rem;
+}
+
+.imagem_topografia{
+    width: 30%;
+    align-self: center;
+}
+
+.servicos_texto2{
+    padding-left: 15%;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    font-size: 1.2rem;
+}
+
+.imagem_tecnologia{
+    padding-left: 30%;
+    width: 60%;
+    padding-top: 2%;
+}
+
+.servicos_texto3{
+    padding-left: 23%;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    font-size: 1.2rem;
+}
+
+.imagem_imobiliaria{
+    padding-left: 33%;
+    width: 60%;
+    padding-top: 4%;
+}
+
+.sobretexto2{
+    color: black;
+    font-family: 'Dosis', sans-serif; 
+    padding-left: 11%;
+    padding-top: 13%;
+    padding-bottom: 4%;
+    font-size: 1.3rem;
+}
+
+.valorestitulo{
+    text-align: center;
+    font-family: 'Dosis', sans-serif; 
+    color: #2c1909;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.valoresdescricao{
+    font-size: 20px;
+    padding-left: 14%;
+    font-family: 'Dosis', sans-serif; 
+    padding-right: 1%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .grid_servicos{
+        grid-template-columns: 1fr; 
+    }
+
+    .flex_servicos{
+        flex-direction: column;
+    }
+
+    .services_body section:nth-child(2n) > .flex_servicos{
+        flex-direction: column;
+    }
+
+    .flex_servicos_image{
+        width:100%;
+    }
+
+    .flex_servicos_description{
+        width: 100%;
+    }
+
+    .flex_servicos_description img{
+        padding: 0;
+    }
+
+    .titulo_servicos{
+        font-size: 35px;
+    }
+
+    .servicos_titulo{
+    padding-top: 70%;
+    }
+
+    .servicos_texto1{
+        font-size: 1.2rem;
+    }
+
+    .imagem_topografia {
+        padding-left: 28%;
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    .servicos_texto2{
+        font-size: 1.2rem;
+    }
+
+    .imagem_tecnologia {
+        padding-left: 28%;
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    .servicos_texto3{
+        font-size: 1.2rem;
+        padding-left: 19%;
+        padding-top: 2%;
+
+    }
+
+    .imagem_imobiliaria {
+        padding-left: 28%;
+        width: 60%;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+	.servicos_titulo{
+		font-size: 6rem;
+		padding-top: 40vh;
+	}
+	.titulo_servicos h3{
+		font-size: 2.5rem;
+	}
+}
+
+
+
+/* PAGINA PRINCIPAL SERVIÇOS*/ 
+
+#servicos .titulo_servicos_principal{
+    margin-top: 0;
+    padding-top: 2.8rem;
+}
+
+.titulo_servicos_principal{
+    font-size: 3rem;
+    color: #024896;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.traco_servicos_principal{
+    font-size: 3rem;
+    color: #024896;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-top: -4%;
+}
+
+.grid_servicos_principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%; 
+}
+
+.imagens_servicos{
+    width: 93%;
+}
+
+.descricao_servicos_principal{
+    text-align: center;
+    color: #024896;
+    font-family: 'Dosis', sans-serif; 
+    padding-bottom: 2%;  
+    font-size: 30px; 
+    margin-bottom: 0;
+}
+.descricao_servicos_principal h3{
+	font-size: 2rem;
+}
+
+/* OVERLAY SERVIÇOS */ 
+
+.container_servicos {
+  position: relative;
+}
+
+.overlay_servicos {
+  position: absolute; 
+  bottom: 2%; 
+  background: #0A73B6; 
+  color: #f1f1f1; 
+  width: 93%;
+  padding-top: 59.5%;
+  padding-bottom: 6%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn, .btn-large, .btn-small a{
+    background-color: #024896!important;
+}
+
+.container_servicos:hover .overlay_servicos{
+  opacity: 0.9;
+}
+
+.texto_overlay{
+    font-family: 'Dosis', sans-serif;
+    font-style: none;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.texto_overlay_baixo{
+    font-family: 'Dosis', sans-serif; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+@media only screen and (max-width: 320px){
+    .traco_servicos_principal{
+        margin-top: -12%;
+    }
+    .grid_servicos_principal{
+        grid-template-columns: 1fr;
+    }
+
+    .overlay_servicos {
+      padding-top: 64%;
+      bottom: 3%;
+      width: 100%;
+  }
+  .grid_servicos_principal{
+    padding-right: 5%;
+}
+
+.imagens_servicos{
+    width: 100%;
+    padding-bottom: 1%;
+}
+.descricao_servicos_principal{
+    margin-top: 1%;
+}
+
+#servicos{
+    padding-top: 0%;
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 425px){
+
+    .traco_servicos_principal{
+        margin-top: -10%;
+    }
+    .grid_servicos_principal{
+        grid-template-columns: 1fr;
+    }
+
+    .overlay_servicos {
+      padding-top: 64%;
+      bottom: 3%;
+      width: 100%;
+  }
+  .grid_servicos_principal{
+    padding-right: 5%;
+}
+
+.imagens_servicos{
+    width: 100%;
+    padding-bottom: 1%;
+}
+.descricao_servicos_principal{
+    margin-top: 1%;
+}
+
+#servicos{
+    padding-top: 0%;
+}
+
+
+}
+
+/* EMPRESAS */
+
+.grid_empresa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Dosis', sans-serif;  
+    padding-top: 3%;
+    padding-bottom:0%;  
+    margin-top:0%; 
+}
+.empresa_texto{
+    padding-left: 13%;
+    padding-right: 8%;
+    text-align: justify;
+}
+
+.empresa_imagem{
+    padding: 2%;
+}
+
+.imagem_empresa{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.empresa_titulo{
+    color: #024896;
+    font-size: 3rem;
+    padding-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+
+.empresa_descricao{
+    padding-top: 1%;
+    font-size: 17px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .grid_empresa{
+        grid-template-columns: 1fr;
+        margin-top: 6%;
+    }
+
+    .imagem_empresa{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .empresa_titulo{
+        text-align: center;
+        padding-left: 0%;
+    }
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+
+    .imagem_empresa{
+        width: 95%!important;
+        padding-left: 0%;
+        padding-top: 25%;
+    }
+
+    .servicos_descricao{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    .imagem_empresa{
+        width: 95%;
+        padding-top: 0%;
+    }
+
+    .servicos_descricao{
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
+/* MISSOES */ 
+.missoes{
+    padding-bottom: 4%;
+    padding-top: 0%;
+    font-family: 'Dosis', sans-serif; 
+}
+
+.missoes_texto{
+    font-size: 35px;
+    margin-bottom: 1%;
+    margin-top: 2%
+}
+
+.missoes_frases{
+    font-size: 18px;
+}
+
+.fundo_missoes{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.ideologia_titulo{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-left: 69%;
+    padding-top: 6%;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0%;
+    font-family: 'Dosis', sans-serif; 
+}
+
+.ideologia_traco{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-left: 73%;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: -2%;
+    font-family: 'Dosis', sans-serif; 
+}
+
+.texto_missoes{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    margin-top: -2%;
+}
+
+.traco_missoes{
+    color:#0A73B6; 
+    margin-top: -3%;
+    margin-bottom: -2%;
+}
+
+@media only screen and (max-width: 320px){
+    .ideologia_titulo{
+        padding-left: 0%;
+        padding-top: 10%;
+    }
+
+    .ideologia_traco{
+        padding-left: 0%;
+        margin-top: -8%;
+    }
+    .texto_missoes{
+        color: black;
+        margin-top: 0%;
+    }
+
+    .traco_missoes{
+        font-size: 20px;
+    }
+    #titulo_contato{
+        margin-left: 0%;
+        text-align: center;
+    }
+
+}   
+
+@media only screen and (min-width: 321px) and (max-width: 425px){
+
+    .ideologia_titulo{
+        font-size: 2.5rem;
+        padding-left: 0%;
+        padding-top: 15%;
+    }
+
+    .ideologia_traco{
+        padding-left: 0%;
+        margin-top: -8%;
+    }
+    .texto_missoes{
+        color: black;
+        margin-top: 23%;
+    }
+
+    .traco_missoes{
+        font-size: 28px;
+    }
+    #titulo_contato{
+        margin-left: 0%;
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
+
+    .ideologia_titulo{
+        font-size: 22px;
+    }
+
+    .ideologia_traco{
+        font-size: 20px;
+    }
+    .missoes_texto{
+        font-size:25px;
+    }
+    .traco_missoes{
+        font-size: 25px;
+    }
+    .missoes_frases{
+        font-size: 17px;
+        margin-top: -1%;
+    }
+    .traco_missoes {
+        margin-top: -5%;
+    }
+    .texto_missoes{
+        margin-top: -5%;
+    }
+
+}
+
+@media only screen and (max-width: 769px){
+    .imagem_header img{
+        max-width: initial;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    .ideologia_titulo{
+        font-size: 30px;
+    }
+
+    .ideologia_traco{
+        font-size: 30px;
+    }
+    .missoes_texto{
+        margin-top: 0%;
+    }
+
+    .traco_missoes {
+        margin-top: -5%;
+        margin-bottom: 0%;
+    }
+
+    .missoes_frases {
+        font-size: 18px;
+        margin-top: 1%;
+    }
+
+    .missoes_frases {
+        margin-bottom: 0%;
+    }
+}
+
+
+
+
+/* CONTATO */
+
+@media only screen and (min-width: 1440px) {
+
+    #clientes{
+        margin-top: 10%;
+    }
+
+}
+
+
+.clientes{
+    padding-bottom: 8%;
+    padding-top: 5%;
+}
+
+
+.clientes_grid6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes_grid6 > a{
+    position: relative;
+    text-align: center;
+}
+
+.clientes_grid6 > a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0A73B6;
+    width: 90%;
+    height: 3px;
+    opacity: 0;
+    transition: .5s ease-in; 
+}
+
+.clientes_grid6 > a:hover::after{
+    opacity: 1;
+}
+
+.clientes_grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.clientes_grid3_item6{
+    justify-self: end;
+}
+
+.clientes_grid3_item7{
+    justify-self: center;
+}
+
+.clientes_grid3_item8{
+    justify-self: start;
+}
+
+.clientes_grid3 > a{
+    position: relative;
+    text-align: center;
+}
+
+.clientes_grid3 > a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0A73B6;
+    width: 90%;
+    height: 3px;
+    opacity: 0;
+    transition: .5s ease-in; 
+}
+
+.clientes_grid3 > a:hover::after{
+    opacity: 1;
+}
+
+
+.clientes_titulo{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 73%;
+    font-size: 3rem;
+    color:#024896;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.traco_clientes{
+    margin-top: -5%;
+    margin-bottom: 1%;
+    padding-left: 75%;
+    font-size: 60px;
+    color:#0A73B6;
+}
+.cliente_logo0{
+    width: 20%;
+}
+.cliente_logo1{
+    padding-left: 55%;
+}
+.cliente_logo2{
+    padding-left: 27%;
+}
+.cliente_logo3{
+    padding-left: 0%;
+}
+
+.cliente_logo71{
+    padding-top: 20%;
+    width: 80%;
+    padding-left: 10%;
+}
+.cliente_logo9i{
+    /* padding-left: 18%;
+    padding-top: 10%; */
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .clientes_grid3{
+        grid-template-columns: 1fr 1fr;
+    }
+    .clientes_grid6{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .clientes_titulo {
+        font-size: 36px;
+        padding-left: 0%;
+        text-align: center;
+    }
+    .cliente_logo1{
+        padding-left: 0%;
+        width: 90%;
+    }
+    .cliente_logo2{
+        padding-left: 13%;
+        width: 90%;
+        padding-top: 7%;
+    }
+    .cliente_logo3{
+        padding-right: 17%;
+        width: 100%;
+    }
+
+    .traco_clientes{
+        padding-left: 0%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .cliente_logo9{
+        padding-left: 0%;
+        width: 90%;
+    }
+    .cliente_logo9i{
+        width: 90%;
+    }
+    .cliente_logo8{
+        padding-left: 0%;
+        width: 90%;
+    }
+    .cliente_logo7{
+        padding-left: 0%;
+        width: 90%;
+    }
+    .cliente_logo71{
+        padding-right: 5%;
+    }
+
+    .clientes{
+        padding-top: 2%;
+    }
+
+    .clientes_grid3 > a > img{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .clientes_titulo{
+        font-size: 45px;
+    }
+    .traco_clientes{
+        font-size: 40px;
+    }
+    .clientes_grid6{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cliente_logo1{
+        padding-left: 0%;
+    }
+    .cliente_logo2 {
+        padding-left: 6%;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    .clientes_titulo{
+        padding-left: 70%;
+    }
+
+    .traco_clientes {
+        margin-top: -5%;
+        margin-bottom: 1%;
+        padding-left: 69%;
+        font-size: 55px;
+
+    }
+    .clientes_grid6{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cliente_logo9{
+        padding-left: 47%;
+    }
+    .cliente_logo9i{
+        padding-left: 47%;
+        padding-top: 0%;
+    }
+    .cliente_logo8{
+        padding-left: 27%;
+    }
+    .cliente_logo7{
+        padding-left: 0%;
+    }
+    .cliente_logo71{
+        padding-left: 0%;
+    }
+    .cliente_logo1{
+        padding-left: 47%;
+    }
+    .cliente_logo2{
+        padding-left: 27%;
+    }
+    .cliente_logo3{
+        padding-left: 0%;
+    }
+
+}
+
+.container_clientes{
+ position: relative;
+}
+
+.overlay_clientes1{
+    position: absolute;
+    bottom: 0;
+    background: #0A73B6;
+    color: #f1f1f1;
+    width: 90%;
+    margin-left: 15%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes1{
+  opacity: 1;
+}
+
+.overlay_clientes2{
+    position: absolute;
+    bottom: 0;
+    background: #0A73B6;
+    color: #f1f1f1;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes2{
+  opacity: 1;
+}
+
+.overlay_clientes3{
+    position: absolute;
+    bottom: 0;
+    background: #0A73B6;
+    color: #f1f1f1;
+    width: 50%;
+    margin-left: 50%;
+    padding-top: 0%;
+    padding-bottom: 0.5%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes3{
+  opacity: 1;
+}
+
+.overlay_clientes4{
+    position: absolute;
+    bottom: 0;
+    background: #0A73B6;
+    color: #f1f1f1;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 0%;
+    padding-bottom: 0.5%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes4{
+  opacity: 1;
+}
+
+.overlay_clientes5{
+    position: absolute;
+    bottom: 0;
+    background: #0A73B6;
+    color: #f1f1f1;
+    width: 45%;
+    padding-top: 0%;
+    padding-bottom: 0.5%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes5{
+  opacity: 1;
+}
+
+.overlay_clientes6{
+    position: absolute;
+    bottom: 0;
+    background: #0A73B6;
+    color: #f1f1f1;
+    width: 70%;
+    margin-left: -35%;
+    padding-top: 0%;
+    padding-bottom: 1.5%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_clientes:hover .overlay_clientes6{
+  opacity: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .overlay_clientes1{
+        margin-left: 5%;
+    }
+
+    .overlay_clientes3 {
+        width: 70%;
+        margin-left: 5%;
+    }
+    .overlay_clientes4 {
+        width: 70%;
+        margin-left: 17%;
+    }
+
+    .overlay_clientes5 {
+        width: 75%;
+        margin-left: 0%;
+    }
+    .overlay_clientes2 {
+        width: 60%;
+        margin-left: 14%;
+    }
+
+}
+
+
+
+/* BASES*/ 
+
+.bases img{
+    width: 100%;
+    z-index: 1;;
+}
+
+.bases_info{
+    position:relative;
+    margin-top:5%;
+}
+
+@media only screen and (max-width: 501px){
+    .bases_info{
+        margin-top: 0 !important;
+    }
+    .bases_cards{
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+    .main_card{
+        position: initial !important;
+    }
+    .bases_card{
+        position: initial !important;
+    }
+    .solo_card{
+        margin:0 !important;
+    }
+}
+.bases_titulo{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-left: 50%;
+    padding-top: 10%;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0%;
+    font-family: 'Dosis', sans-serif; 
+    margin-top: -101%;
+}
+
+.bases_descricao{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0%;
+    font-family: 'Dosis', sans-serif; 
+    margin-top: -10%;
+}
+
+
+
+#svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
+#svg-map a{ text-decoration:none }
+#svg-map a:hover { cursor:pointer; text-decoration:none }
+#svg-map a:hover path{ fill:#003399 !important }
+#svg-map .circle { fill:#d4d3d3 }
+#svg-map a:hover .circle { fill:#003399 !important; cursor:pointer }
+/* #toca{fill:#0094d9}
+#bahia{ fill:#0094d9}
+#sergipe{ fill: #d4d3d3}
+#pernambuco{ fill: #d4d3d3}
+#alagoas { fill: #d4d3d3}
+#rn {fill: #d4d3d3}
+#ceara{ fill: #d4d3d3}
+#piaui { fill: #d4d3d3}
+#maranhao {fill: #0094d9}
+#amapa { fill: #d4d3d3}
+#para{ fill: #d4d3d3}
+#roraima{ fill: #d4d3d3}
+#amazonas{ fill: #d4d3d3}
+#acre { fill: #d4d3d3}
+#rondonia{ fill: #d4d3d3}
+#matogrosso{ fill: #d4d3d3}
+#ms { fill: #0094d9}
+#goias { fill: #d4d3d3}
+#parana{fill: #0094d9}
+#santacatarina{fill: #d4d3d3}
+#riograndedosul{ fill:#03b5a5}
+#saopaulo{ fill:#03b5a5}
+#minasgerais{ fill: #0094d9}
+#riodejaneiro{fill: #d4d3d3}
+#espiritosanto{ fill: #d4d3d3}
+#paraiba{ fill: #d4d3d4} */
+
+.base{
+    fill:#0fd7c5;
+} 
+.branch{
+    fill: #03b5a5;
+}
+.team{
+    fill: #0094d9;
+}
+.none{
+    fill:#d4d3d3;
+}
+
+/* 
+#msg-saopaulo{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 8%;
+} */
+
+.solo_card{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
+.main_card{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    position: absolute;
+    top:50%;
+    left:0;
+}
+
+.bases_card{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+/* 
+#bases-saopaulo{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-top: -48%;
+    margin-left: 56%;
+} */
+
+.titulo_saopaulo{
+    text-align: center;
+    font-size: 2.5rem;
+    color: red;
+    padding-top: 3%;
+    margin-bottom: 0;
+    margin-top:5%;
+}
+
+.titulo_sp{
+    text-align: center;
+    font-size: 2.5rem;
+    color: red;
+    padding-top: 3%;
+    margin-bottom: 0;
+}
+.titulo_rgs{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    padding-top: 3%;
+    margin-bottom: 0;
+}
+.sede_sp{
+    text-align: center;
+    color: black;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+.equipe_sp{
+    text-align: center;
+    color: black;
+    margin-top: 1.5%;
+    padding-top: 2%;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+}
+
+.traco_bases{
+    text-align: center;
+    color: black;
+    margin-top:-5%;
+    font-size: 2rem;
+
+}
+.traco_bases-sp{
+    text-align: center;
+    color: black;
+    margin-top:-5%;
+    margin-bottom: 0;
+    font-size: 2rem;
+
+}
+
+.texto_sp{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.texto_bases_sp{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+/* 
+#msg-rgs{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#bases-rgs{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 2%;
+    margin-top: -46%;
+    margin-left: 56%;
+}
+
+#msg-mg{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
+#msg-bahia{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
+#msg-toca{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+    transition: 1s;
+}
+
+#msg-parana{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
+#msg-maranhao{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+
+#msg-mgs{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+ */
+
+.mapa{
+    z-index: 2;
+    padding-left: 25%;
+    position: relative;
+    margin-top: -85%;
+}
+
+.grid_mapa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bases_traco{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding-left: 50%;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: -6%;
+    font-family: 'Dosis', sans-serif; 
+}
+
+.equipes_mapa{
+    align-items: center;
+    margin-bottom: 0%;
+    color: #0094d9;
+    padding-left: 1%;
+}
+
+.sedes_mapa{
+    align-items: center;
+    margin-top: 0%;
+    color: #03b5a5;
+    padding-left: 1%;
+}
+
+.legenda{
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 17%;
+    font-size: 1.5rem;
+    background:rgba(255,255,255, 0.3);
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+
+
+    .bases img{
+        width: 100%;
+        height: 435px;
+    }
+    svg:not(:root){
+        margin-top: -210%;
+        width: 190%;
+    }
+    .bases_titulo {
+        padding-left: 47%;
+        padding-top: 0%;
+        font-size: 35px;
+        margin-top: -210%;
+    }
+    .bases_traco{
+        font-size: 10px;
+        padding-left: 47%;
+    }
+
+    .bases_descricao {
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-left: -87%;
+        font-size: 1.2rem;
+        margin-bottom: 0%;
+        margin-top: 132%;
+    }
+    #msg-saopaulo{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-saopaulo{
+        margin-top: -160%;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    #msg-rgs{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 30%;
+    }
+
+    #bases-rgs{
+        margin-top: -160%;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .titulo_saopaulo{
+        font-size: 1.7rem;
+    }
+
+    .titulo_rgs{
+        font-size: 1.7rem;
+    }
+
+    #msg-mgs{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+
+    #msg-toca{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+    #msg-mg{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+    #msg-parana{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+    #msg-maranhao{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+    #msg-bahia{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+
+    .equipes_mapa{
+        align-items: center;
+        margin-bottom: 0%;
+        color: #0094d9;
+        padding-left: 0%;
+
+    }
+
+    .sedes_mapa{
+        align-items: center;
+        margin-top: 0%;
+        color: #03b5a5;
+    }
+
+    .legenda{
+        margin-top: -90%;
+        margin-left: 10%;
+        width: 30%;
+        font-size: 1rem;
+        background:rgba(255,255,255, 0.3);
+    }
+
+    .traco_missoes {
+        font-size: 21px;
+    }
+
+
+    .logo {
+        height: 90%;
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+
+    .titulo_rgs {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media only screen and (min-width: 376px) and (max-width: 425px){
+
+    .bases img{
+        width: 100%;
+        height: 435px;
+    }
+    svg:not(:root){
+        margin-top: -185%;
+        width: 190%;
+    }
+    .bases_titulo {
+        padding-left: 47%;
+        padding-top: 0%;
+        font-size: 35px;
+        margin-top: -200%;
+    }
+    .bases_traco{
+        font-size: 13px;
+        padding-left: 47%;
+    }
+
+    .bases_descricao {
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-left: -87%;
+        font-size: 1.3rem;
+        margin-bottom: 0%;
+        margin-top: 132%;
+    }
+    #msg-saopaulo{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-saopaulo{
+        margin-top: -160%;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    #msg-rgs{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-rgs{
+        margin-top: -160%;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .titulo_saopaulo{
+        font-size: 1.8rem;
+    }
+
+    .titulo_rgs{
+        font-size: 1.7rem;
+    }
+
+    #msg-mgs{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+
+    #msg-toca{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+    #msg-mg{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+    #msg-parana{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+    #msg-maranhao{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+    #msg-bahia{
+        margin-left: -30%;
+        margin-top: 30%;
+    }
+
+    .equipes_mapa{
+        align-items: center;
+        margin-bottom: 0%;
+        color: #0094d9;
+    }
+
+    .sedes_mapa{
+        align-items: center;
+        margin-top: 0%;
+        color: #03b5a5;
+    }
+
+    .legenda{
+        margin-top: -75%;
+        margin-left: 10%;
+        width: 30%;
+        font-size: 1rem;
+        background:rgba(255,255,255, 0.3);
+    }
+}
+@media only screen and (max-width: 320px){
+
+    .bases img{
+        width: 100%;
+        height: 425px;
+    }
+    svg:not(:root){
+        margin-top: -265%;
+        width: 200%;
+    }
+    .bases_titulo {
+        padding-left: 25%;
+        padding-top: 0%;
+        font-size: 30px;
+        margin-top: -250%;
+    }
+    .bases_traco{
+        font-size: 13px;
+        padding-left: 25%;
+    }
+
+    .bases_descricao {
+        padding-left: 0%;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-left: -87%;
+        font-size: 1.3rem;
+        margin-bottom: 0%;
+        margin-top: 155%;
+    }
+    #msg-saopaulo{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-saopaulo{
+        margin-top: -240%;
+        width: 70%;
+        margin-left: 20%;
+    }
+    #msg-rgs{
+        margin-left: -70%;
+        width: 60%;
+        margin-top: 25%;
+    }
+
+    #bases-rgs{
+        margin-top: -225%;
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .titulo_saopaulo{
+        font-size: 1.5rem;
+    }
+
+    .titulo_rgs{
+        font-size: 1.5rem;
+    }
+
+    #msg-mgs{
+        margin-left: -30%;
+    }
+
+    #msg-toca{
+        margin-left: -30%;
+    }
+    #msg-mg{
+        margin-left: -30%;
+    }
+    #msg-parana{
+        margin-left: -30%;
+    }
+    #msg-maranhao{
+        margin-left: -30%;
+    }
+    #msg-bahia{
+        margin-left: -30%;
+    }
+    .equipes_mapa{
+        align-items: center;
+        margin-bottom: 0%;
+        color: #0094d9;
+    }
+
+    .sedes_mapa{
+        align-items: center;
+        margin-top: 0%;
+        color: #03b5a5;
+    }
+
+    .legenda{
+        margin-top: -100%;
+        margin-left: 10%;
+        width: 45%;
+        font-size: 1rem;
+        background:rgba(255,255,255, 0.3);
+    }
+
+}
+
+/* OVERLAY MAPA*/ 
+.fundo_bases{
+    padding-left: 1%;
+    width: 65%;
+    margin-top: 15%;
+    height: 15vh;
+    background-color: white;
+}
+
+.container_mapa {
+  position: relative;
+}
+
+.overlay_mapa {
+    position: absolute;
+    margin-left: -16%;
+    height: 27vh;
+    bottom: -46%;
+    background: #0A73B6;
+    color: #f1f1f1;
+    width: 195%;
+    padding-top: 55.5%;
+    padding-bottom: 0%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container_mapa:hover .overlay_mapa{
+  opacity: 0.9;
+}
+
+.grid_overlaymapa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.parallax_servicos {
+
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .parallax_servicos {
+    background-attachment: scroll;
+}
+}
+
+/*Home*/
+
+
+body{
+    width: 100%;
+}
+.carrossel{
+    max-width: 100%;
+    height: 92vh;
+    overflow: hidden;
+    margin: 0 auto;
+}    
+
+/*Contato*/
+.grid_contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(248, 248, 248);
+	padding-bottom: 6rem;
+}
+
+@media only screen and (max-device-width: 1023px) {
+    .grid_contato{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #mapa_contato{
+        height:100%;
+        margin-right: 3%;
+        margin-left: 2%;
+        margin-top:5%;
+        position:relative;
+        -webkit-box-shadow: -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+    }
+}
+
+#titulo_contato{
+    margin-left: 6%;
+    text-transform: uppercase;
+    color: #003399;
+    text-decoration-line: underline;
+    font-size: 3rem;
+}
+#formulario_contato{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.div.wpforms-container-full .wpforms-form select{
+    color: #0A73B6 !important;
+}
+div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea {
+    background-color: rgb(253, 252, 252);
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: rgb(54, 54, 54);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    float: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    height: 38px;
+    width: 100%;
+    line-height: 1.3;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    display: block;
+    font-family: 'Dosis';
+    font-size: 15px;
+    float: none;
+    line-height: 1.3;
+    margin: 0 0 4px 0;
+    padding: 0;
+}
+div.wpforms-container-full .wpforms-form .wpforms-required-label {
+    color: #0A73B6;
+    font-weight: 400;
+}
+
+.wpforms-confirmation-container-full {
+    color: #333;
+    margin: 0 0 24px 0;
+    background: #c7dbff;
+    border: 1px solid #c7dbff;
+    padding: 15px 15px;
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit], 
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    background-color: rgb(243, 243, 243); /* Grey background */
+    border-radius:10px;
+    border: 2px solid #0A73B6; /* Dark grey border */
+    color: #0A73B6; /* Black text color */
+    font-size: 1em; /* Size of text */
+    padding: 10px 15px; /* Distance between text and border */
+}
+
+#mapa_contato{
+    margin-right: 3%;
+    margin-left: 2%;
+    top:-1.8em;
+    position:relative;
+    -webkit-box-shadow: -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+/*Blog*/
+
+
+.blog_titulo{
+    text-align: center;
+   	padding-top: 39vh;
+    margin: 0;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: 'Dosis', sans-serif; 
+}
+
+.parallax_blog {
+    height: 95vh;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1023px) {
+    .parallax_blog{
+        background-attachment: scroll;
+        height:100vh;
+        overflow: hidden;
+    }
+
+    .blog_titulo{
+        text-align: center;
+      	padding-top: 39vh;
+    	margin: 0;
+    	font-size: 4rem;
+        color: white;
+        text-shadow: 3px 3px black;
+        font-family: 'Dosis', sans-serif; 
+    }
+}
+
+.caixa_post{
+    width:95%;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    -webkit-box-shadow: -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 2px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+#post{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%; 
+    grid-gap: 3.5rem;
+	padding-bottom: 6rem;
+	padding-top: 3rem;
+}
+
+.post_imagem{
+    height:250px;
+    width:100%;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+@media only screen and (max-device-width: 1023px){
+    #post{
+        display: grid;
+        grid-template-columns:1fr ;
+    }
+
+}
+
+.post_imagem{
+    max-width:100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.conteudo_post{
+    text-align: justify;
+    padding: 1rem;
+}
+
+.titulo_post{
+    font-size:1.1rem;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+.data_post{
+    font-size:0.85rem;
+    color:darkgray;
+}
+
+.content_post{
+    color: rgb(112, 111, 111);
+}
+.saiba_button{
+   padding: 1rem;
+   float: right;
+   font-style: rgb(109, 108, 108);
+}
+
+.saiba_button a{
+    background-color: rgb(226, 225, 225);
+}
+
+.saiba_button a:hover {
+    background-color: rgb(226, 225, 225);
+}
+
+.saiba_button a:active {
+    background-color: rgb(226, 225, 225);
+}
+
+.saiba_button a:focus {
+    background-color: rgb(226, 225, 225);
+}
+
+/*Singular Post*/
+.post_container img {
+    max-width: 100%;
+    max-height: 50vw;
+}
+
+.post_container{
+    padding-top:20px;
+    overflow: hidden;
+}
+
+.titulo_single {
+    margin: 0;
+    font-size: 4rem;
+}
+.seta_single i{
+	padding: 1.5rem 0;
+}
+.seta_single i{
+    font-size: 0.5rem;
+    color:#003399;
+}
+.seta_single a{
+    font-family: 'Dosis';
+    font-size: 1rem;
+    color:#003399;
+	padding-left: 10px;
+}
+
+nav ul li a.current {
+  background: black;
+}

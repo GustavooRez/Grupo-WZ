@@ -1,0 +1,26 @@
+0000.001 (0) Opened log file at time: Wed, 13 Nov 2019 20:14:19 +0000 on http://localhost/GrupoWZ
+0000.033 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.3.5 (apache2handler, Windows NT GUSTAVO-PC 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.1.39-MariaDB WPLANG: pt_BR Server: Apache/2.4.39 (Win64) OpenSSL/1.1.1b PHP/7.3.5 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34M | 4M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.089 (0) Free space on disk containing Updraft's temporary directory: 188978.8 MB
+0000.235 (0) Deleting old temporary file: log.3187732b2bb3-browser.txt
+0000.286 (0) Deleting old temporary file: log.b31e25f16756-browser.txt
+0000.290 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.485 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.775 (0) Set semaphore last lock (fd) time to 2019-11-13 20:14:20
+0000.897 (0) Semaphore lock (fd) complete
+0001.063 (0) Backup run: resumption=0, nonce=aa7e5708f406, file_nonce=aa7e5708f406 begun at=1573676059 (1s ago), job type=backup
+0001.149 (0) Scheduling a resumption (1) after 300 seconds (1573676360) in case this run gets aborted
+0001.264 (0) Checking if we have a zip executable available
+0001.348 (0) Creation of backups of directories: beginning
+0001.532 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.359 (0) Total entities for the zip file: 231 directories, 1601 files (0 skipped as non-modified), 29.6 MB
+0004.445 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006.418 (0) Zip: backup_2019-11-13-1814_Grupo_WZ_aa7e5708f406-plugins.zip.tmp: 100 files added (on-disk size: 46.2 KB)
+0007.185 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.5 MB, 183 (184) files added so far); re-opening (prior size: 46.2 KB)
+0008.362 (0) Zip: backup_2019-11-13-1814_Grupo_WZ_aa7e5708f406-plugins.zip.tmp: 200 files added (on-disk size: 1027.3 KB)
+0010.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.4 MB, 59 (243) files added so far); re-opening (prior size: 1027.3 KB)
+0011.170 (0) User request for abort: backup job will be immediately halted
+0011.256 (0) Decremented the semaphore (fd) by 1
+0011.347 (0) Semaphore (fd) unlocked
+0011.444 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.591 (0) No email will/can be sent - the user has not configured an email address.
+0011.621 (0) O backup foi abortado pelo usuário
